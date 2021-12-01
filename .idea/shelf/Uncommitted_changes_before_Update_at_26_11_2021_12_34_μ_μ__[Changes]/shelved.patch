@@ -1,0 +1,1140 @@
+Index: src/main/resources/Easy Answers.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>A\r\nB\r\nC\r\nC\r\nB\r\nB\r\nB\r\nB\r\nD\r\nA\r\nA\r\nD\r\nB\r\nC\r\nD\r\nA\r\nA\r\nC\r\nD\r\nA\r\nA\r\nC\r\nC\r\nB\r\nA\r\nC\r\nA\r\nD\r\nC\r\nC\r\nD\r\nA\r\nA\r\nA\r\nC\r\nD\r\nB\r\nA\r\nD\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/Easy Answers.txt b/src/main/resources/Easy Answers.txt
+--- a/src/main/resources/Easy Answers.txt	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/src/main/resources/Easy Answers.txt	(date 1637797930455)
+@@ -36,5 +36,4 @@
+ D
+ B
+ A
+-D
+-
++D
+\ No newline at end of file
+Index: src/main/resources/Easy Questions.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>4.\tΠοιο ήταν το ιερό ζώο στην αρχαία Κρήτη κατά τα Μινωικά χρόνια;\r\n7.\tΠότε έγινε η Ναυμαχία της Σαλαμίνας;\r\n12.\tΠοιο πολίτευμα ονομαζόταν και «τιμοκρατικό»;\r\n17.\tΠοια χρονιά ξεκίνησε ο Πελοποννησιακός Πόλεμος;\r\n18.\tΠότε πέθανε ο Μέγας Αλέξανδρος;\r\n20.\tΠότε ιδρύθηκε η Φιλική Εταιρεία;\r\n21.\tΠοια χρονολογία δολοφονήθηκε ο πρώτος Κυβερνήτης της Ελλάδας, Ιωάννης Καποδίστριας;\r\n24.\tΠότε υπογράφηκε η συνθήκη ένταξης της Ελλάδας στην Ευρωπαϊκή Ένωση;\r\n28.\tΠοιος Έλληνας πρωθυπουργός αρνήθηκε την άνευ όρων ελεύθερη είσοδο των Ιταλικών δυνάμεων στην Ελλάδα;\r\n31.\tΤι δώρισε η θεά Αθηνά στην πόλη της Αθήνας, ώστε η πόλη να πάρει το όνομά της;\r\n34.\tΠοιος βοήθησε τον Ιάσονα να κλέψει το Χρυσόμαλλο Δέρας;\r\n44.\tΠοιος ήρωας αντιμετώπισε τις Στυμφαλίδες Όρνιθες;\r\n47.\tΤι σήκωνε στους ώμους του ο Άτλαντας;\r\n48.\tΣε ποια θεά έδωσε ο Πάρης το μήλο της Έριδος;\r\n50.\tΤι έπρεπε να βρει ο Ιάσωνας για να κερδίσει τον θρόνο του;\r\n51.\tΠοιο ήταν το όνομα του πιστού σκύλου του Οδυσσέα;\r\n56.\tΠόσες ήταν οι Μούσες;\r\n59.\tΠοιος έφτιαξε τον Λαβύρινθο για τον Βασιλιά Μίνωα;\r\n60.\tΠόσα χρόνια κράτησε ο πόλεμος στην Τροία;\r\n64.\tΠοιο νησί βρίσκεται βορειότερα στην Ελλάδα;\r\n70.\tΣε ποιο νομό βρίσκονται τα Ζαγοροχώρια;\r\n72.\tΠοιο είναι το δεύτερο μεγαλύτερο νησί της Ελλάδας;\r\n73.\tΠόσα είναι τα γεωγραφικά διαμερίσματα της Ελλάδας;\r\n74.\tΠοια είναι η πρωτεύουσα του νομού Αιτωλοακαρνανίας;\r\n75.\tΣε ποιο σύμπλεγμα νησιών ανήκει η Τζιά;\r\n76.\tΠοια είναι η πρωτεύουσα του νομού Αργολίδας;\r\n81.\tΑπό ποιο πέλαγος βρέχεται στα νότια της η Ελλάδα;\r\n87.\tΠρωτεύουσα του νομού Ροδόπης είναι \r\n89.\tΠόσους νομούς έχει η Κρήτη;\r\n91.\tΠοια ηρωική έξοδο ζωγράφισε ο Θεόδωρος Βρυζάκης;  \r\n92.\tΠοιας Ελληνίδας πεζογράφου έργο είναι το «Παραμύθι χωρίς όνομα»;\r\n93.\tΣε ποιον Έλληνα ποιητή ανήκει ο στίχος «Αυτός ο κόσμος ο μικρός ο μέγας»;\r\n102.\tΠοιου αρχαίου συγγραφέα είναι έργο οι «Θεσμοφοριάζουσες»;\r\n103.\tΠοιος αρχαίος συγγραφέας έγραψε το έργο «Πολιτεία»;\r\n108.\tΠόσες Καρυάτιδες κοσμούσαν το Ερέχθειο στον Ακρόπολη;\r\n113.\tΠοιος από τους παρακάτω Έλληνες ποιητές έχουν βραβευτεί με Νόμπελ Λογοτεχνίας;\r\n118.\tΟ Οδυσσέας Ελύτης έγραψε:\r\n119.\tΟ Γιάννης Ρίτσος έγραψε:\r\n120.\tΠοιο δεν είναι έργο του Αριστοφάνη;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/Easy Questions.txt b/src/main/resources/Easy Questions.txt
+--- a/src/main/resources/Easy Questions.txt	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/src/main/resources/Easy Questions.txt	(date 1637797930461)
+@@ -30,19 +30,10 @@
+ 91.	Ποια ηρωική έξοδο ζωγράφισε ο Θεόδωρος Βρυζάκης;  
+ 92.	Ποιας Ελληνίδας πεζογράφου έργο είναι το «Παραμύθι χωρίς όνομα»;
+ 93.	Σε ποιον Έλληνα ποιητή ανήκει ο στίχος «Αυτός ο κόσμος ο μικρός ο μέγας»;
+-102.	Ποιου αρχαίου συγγραφέα είναι έργο οι «Θεσμοφοριάζουσες»;
+-103.	Ποιος αρχαίος συγγραφέας έγραψε το έργο «Πολιτεία»;
+-108.	Πόσες Καρυάτιδες κοσμούσαν το Ερέχθειο στον Ακρόπολη;
+-113.	Ποιος από τους παρακάτω Έλληνες ποιητές έχουν βραβευτεί με Νόμπελ Λογοτεχνίας;
+-118.	Ο Οδυσσέας Ελύτης έγραψε:
+-119.	Ο Γιάννης Ρίτσος έγραψε:
+-120.	Ποιο δεν είναι έργο του Αριστοφάνη;
+-
+-
+-
+-
+-
+-
+-
+-
+-
++102. Ποιου αρχαίου συγγραφέα είναι έργο οι «Θεσμοφοριάζουσες»;
++103. Ποιος αρχαίος συγγραφέας έγραψε το έργο «Πολιτεία»;
++108. Πόσες Καρυάτιδες κοσμούσαν το Ερέχθειο στον Ακρόπολη;
++113. Ποιος από τους παρακάτω Έλληνες ποιητές έχουν βραβευτεί με Νόμπελ Λογοτεχνίας;
++118. Ο Οδυσσέας Ελύτης έγραψε:
++119. Ο Γιάννης Ρίτσος έγραψε:
++120. Ποιο δεν είναι έργο του Αριστοφάνη;
+\ No newline at end of file
+Index: src/main/resources/testfile.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>jjghkjkj\r\nhgnghgh\r\nhjhjajk\r\njkajah\r\nhjshjhj\r\nnbaoak\r\nspyros
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/testfile.txt b/src/main/resources/testfile.txt
+--- a/src/main/resources/testfile.txt	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/src/main/resources/testfile.txt	(date 1637798880046)
+@@ -1,4 +1,4 @@
+-jjghkjkj
++jghkjkj
+ hgnghgh
+ hjhjajk
+ jkajah
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/shelved.patch	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ /dev/null	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
+@@ -1,286 +0,0 @@
+-Index: src/main/java/Username.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import javax.swing.*;\r\nimport java.awt.*;\r\nimport java.awt.event.*;\r\n\r\n/**\r\n * Κλάση για εισαγωγή username χρήστη και έλεγχος εγκυρότητας\r\n *\r\n * @author Panagiotis Spanakis\r\n */\r\n\r\npublic class Username implements ActionListener, KeyListener {\r\n\r\n    private JFrame frame;\r\n    private JButton submit = new JButton(\"Submit\");\r\n    private JTextField textField = new JTextField();\r\n    /**\r\n     * Θέλουμε να γνωρίζουν όλες οι κλάσεις το username του παίκτη ώστε να μπορεί να αποθηκευτεί πιο εύκολα\r\n     */\r\n    protected static String username;\r\n\r\n    public Username() {\r\n        // Εξατομίκευση παραθύρου\r\n        frame = new JFrame();\r\n        frame.setTitle(\"Set Username\");\r\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n        frame.setResizable(false);\r\n        frame.setSize(300, 300);\r\n        frame.setVisible(true);\r\n        frame.setLayout(null);\r\n        frame.getContentPane().setBackground(Color.black);\r\n\r\n        submit.setBounds(100, 200, 100, 30);\r\n        submit.setHorizontalAlignment(JButton.CENTER);\r\n        submit.setFocusable(false);\r\n        submit.addActionListener(this);\r\n\r\n        textField.setBounds(75, 100, 150, 50);\r\n        textField.setPreferredSize(new Dimension(200, 50));\r\n        //Key Bind\r\n        submit.addKeyListener(this);\r\n\r\n        frame.add(submit);\r\n        frame.add(textField);\r\n        frame.getRootPane().setDefaultButton(submit);\r\n\r\n    }\r\n\r\n    /**\r\n     * Ενέργεια όταν κάνουμε κλικ στο κουμπί\r\n     */\r\n    @Override\r\n    public void actionPerformed(ActionEvent e) {\r\n        if (e.getSource() == submit) {\r\n            username = textField.getText();\r\n            if (username.equals(\"\")) {\r\n                JOptionPane.showMessageDialog(null, \"You must enter your username!\", \"Reminder\", JOptionPane.ERROR_MESSAGE);\r\n                return;\r\n            } else if (username.equals(\"spanakis\")) {\r\n                JOptionPane.showMessageDialog(null, \"Congrats you won already everything!\", \"Reminder\", JOptionPane.INFORMATION_MESSAGE);\r\n                System.exit(1);\r\n            }\r\n            new Menu();\r\n        }\r\n        frame.dispose();\r\n    }\r\n\r\n    //Απλά κουβαλιέται λόγω του implementation\r\n    @Override\r\n    public void keyTyped(KeyEvent e) {\r\n    }\r\n\r\n    /**\r\n     * Ενέργεια για όταν πατιέται το κουμπί enter\r\n     */\r\n    @Override\r\n    public void keyPressed(KeyEvent e) {\r\n        if (e.getKeyCode() == KeyEvent.VK_ENTER) {\r\n            username = textField.getText();\r\n            if (username.equals(\"\")) {\r\n                JOptionPane.showMessageDialog(null, \"You must enter your username!\", \"Reminder\", JOptionPane.ERROR_MESSAGE);\r\n                return;\r\n            }\r\n            JOptionPane.showMessageDialog(null, \"You've Submitted the name \" + username, \"Info\", JOptionPane.ERROR_MESSAGE);\r\n            new Menu();\r\n\r\n        }\r\n        frame.dispose();\r\n\r\n    }\r\n\r\n    //Απλά κουβαλιέται λόγω του implementation\r\n    @Override\r\n    public void keyReleased(KeyEvent e) {\r\n    }\r\n}\r\n\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/Username.java b/src/main/java/Username.java
+---- a/src/main/java/Username.java	(revision 5aef6c912f25339878e9873063d239310bd5a0e4)
+-+++ b/src/main/java/Username.java	(date 1637231247088)
+-@@ -13,6 +13,7 @@
+-     private JFrame frame;
+-     private JButton submit = new JButton("Submit");
+-     private JTextField textField = new JTextField();
+-+    private ImageIcon icon=new ImageIcon("src/main/resources/Icon.png");
+-     /**
+-      * Θέλουμε να γνωρίζουν όλες οι κλάσεις το username του παίκτη ώστε να μπορεί να αποθηκευτεί πιο εύκολα
+-      */
+-@@ -29,6 +30,7 @@
+-         frame.setLayout(null);
+-         frame.getContentPane().setBackground(Color.black);
+- 
+-+
+-         submit.setBounds(100, 200, 100, 30);
+-         submit.setHorizontalAlignment(JButton.CENTER);
+-         submit.setFocusable(false);
+-@@ -42,6 +44,7 @@
+-         frame.add(submit);
+-         frame.add(textField);
+-         frame.getRootPane().setDefaultButton(submit);
+-+        frame.setIconImage(icon.getImage());
+- 
+-     }
+- 
+-Index: src/main/java/Menu.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import javax.swing.*;\r\nimport java.awt.event.ActionEvent;\r\nimport java.awt.event.ActionListener;\r\n\r\n/**\r\n * Κλάση για StartMenu\r\n *\r\n * @author Panagiotis Spanakis kai synergates\r\n */\r\n\r\npublic class Menu implements ActionListener {\r\n\r\n    /**Initialize μεταβλητών διαστάσεων*/\r\n    private final int X=225;\r\n    private final int Y=200;\r\n    private final int WIDTH=150;\r\n    private final int HEIGHT=50;\r\n\r\n    JFrame frame;\r\n    JButton start = new JButton(\"Start Game\");\r\n    JButton how2play = new JButton(\"How to Play\");\r\n    JButton credits = new JButton(\"Show Credits\");\r\n    JLabel label = new JLabel();\r\n\r\n    public Menu() {\r\n        // Εξατομίκευση παραθύρου\r\n        frame = new JFrame(); //create frame\r\n        frame.setTitle(\"Menu\"); //setTitle of frame\r\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n        frame.setResizable(false);\r\n        frame.setSize(600, 600);\r\n        frame.setVisible(true);\r\n        frame.setLayout(null);\r\n\r\n        setButton(start, X, Y, WIDTH, HEIGHT);\r\n        setButton(how2play, X, Y+100, WIDTH, HEIGHT);\r\n        setButton(credits, X, Y+200, WIDTH, HEIGHT);\r\n\r\n        label.setText(Username.username);\r\n        label.setBounds(0, 0, WIDTH, HEIGHT);\r\n\r\n        frame.add(start);\r\n        frame.add(how2play);\r\n        frame.add(credits);\r\n        frame.add(label);\r\n    }\r\n\r\n    /**\r\n     * Μέθοδος δημιουργίας Κουμπιών\r\n     */\r\n    public void setButton(JButton button, int x, int y, int width, int height) {\r\n        button.setBounds(x, y, width, height);\r\n        button.setFocusable(false);\r\n        button.setHorizontalAlignment(JButton.CENTER);\r\n        button.addActionListener(this);\r\n\r\n    }\r\n\r\n    /**\r\n     * Ενέργεια όταν κάνουμε κλικ στο κουμπί\r\n     */\r\n    @Override\r\n    public void actionPerformed(ActionEvent e) {\r\n        if (e.getSource() == start) {\r\n            new Levels();\r\n            frame.dispose();\r\n        } else if (e.getSource() == how2play) {\r\n            new Guide();\r\n        } else {\r\n            new Credits();\r\n        }\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/Menu.java b/src/main/java/Menu.java
+---- a/src/main/java/Menu.java	(revision 5aef6c912f25339878e9873063d239310bd5a0e4)
+-+++ b/src/main/java/Menu.java	(date 1637189475615)
+-@@ -20,6 +20,7 @@
+-     JButton start = new JButton("Start Game");
+-     JButton how2play = new JButton("How to Play");
+-     JButton credits = new JButton("Show Credits");
+-+    JButton description=new JButton("Game Description");
+-     JLabel label = new JLabel();
+- 
+-     public Menu() {
+-@@ -32,9 +33,10 @@
+-         frame.setVisible(true);
+-         frame.setLayout(null);
+- 
+--        setButton(start, X, Y, WIDTH, HEIGHT);
+--        setButton(how2play, X, Y+100, WIDTH, HEIGHT);
+--        setButton(credits, X, Y+200, WIDTH, HEIGHT);
+-+        setButton(start,Y);
+-+        setButton(how2play,Y+100);
+-+        setButton(credits,Y+200);
+-+        setButton(description,Y+300);
+- 
+-         label.setText(Username.username);
+-         label.setBounds(0, 0, WIDTH, HEIGHT);
+-@@ -42,18 +44,18 @@
+-         frame.add(start);
+-         frame.add(how2play);
+-         frame.add(credits);
+-+        frame.add(description);
+-         frame.add(label);
+-     }
+- 
+-     /**
+-      * Μέθοδος δημιουργίας Κουμπιών
+-      */
+--    public void setButton(JButton button, int x, int y, int width, int height) {
+--        button.setBounds(x, y, width, height);
+-+    public void setButton(JButton button,int y) {
+-+        button.setBounds(X, y, WIDTH, HEIGHT);
+-         button.setFocusable(false);
+-         button.setHorizontalAlignment(JButton.CENTER);
+-         button.addActionListener(this);
+--
+-     }
+- 
+-     /**
+-@@ -66,8 +68,10 @@
+-             frame.dispose();
+-         } else if (e.getSource() == how2play) {
+-             new Guide();
+--        } else {
+-+        } else if(e.getSource()==credits){
+-             new Credits();
+-+        }else {
+-+            new Description();
+-         }
+-     }
+- }
+-\ No newline at end of file
+-Index: src/main/java/Guide.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import javax.swing.*;\r\n\r\n/**\r\n * Κλάση για περιγραφή οδηγιών\r\n *\r\n * @author Panagiotis Spanakis kai synergates\r\n */\r\n\r\npublic class Guide {\r\n\r\n    JFrame frame;\r\n\r\n    public Guide() {\r\n        // Εξατομίκευση παραθύρου\r\n        frame = new JFrame(); //create frame\r\n        frame.setTitle(\"Guide\"); //setTitle of frame\r\n        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);\r\n        frame.setResizable(false);\r\n        frame.setSize(600, 600);\r\n        frame.setVisible(true);\r\n        frame.setLayout(null);\r\n    }\r\n\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/Guide.java b/src/main/java/Guide.java
+---- a/src/main/java/Guide.java	(revision 5aef6c912f25339878e9873063d239310bd5a0e4)
+-+++ b/src/main/java/Guide.java	(date 1637231473911)
+-@@ -9,7 +9,6 @@
+- public class Guide {
+- 
+-     JFrame frame;
+--
+-     public Guide() {
+-         // Εξατομίκευση παραθύρου
+-         frame = new JFrame(); //create frame
+-Index: src/main/java/Levels.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import javax.swing.*;\r\nimport java.awt.event.ActionEvent;\r\nimport java.awt.event.ActionListener;\r\n\r\n/**\r\n * Επιλογή Επίπεδου δυσκολίας\r\n *\r\n * @author Panagiotis Spanakis k synergates\r\n */\r\npublic class Levels implements ActionListener {\r\n\r\n    /**Initialize μεταβλητών διαστάσεων*/\r\n    private final int BX=225;\r\n    private final int BY=200;\r\n    private final int B_WIDTH=150;\r\n    private final int B_HEIGHT=50;\r\n\r\n    JFrame frame;\r\n    JButton easy = new JButton(\"Easy\");\r\n    JButton medium = new JButton(\"Medium\");\r\n    JButton hard = new JButton(\"Hard\");\r\n    JLabel label = new JLabel();\r\n    /**\r\n     * Θέλουμε να γνωρίζει η κλάση labyrinth το επίπεδο δυσκολίας που επίλεξε\r\n     */\r\n    protected static String difficulty;\r\n\r\n    public Levels() {\r\n        // Εξατομίκευση παραθύρου\r\n        frame = new JFrame(); //create frame\r\n        frame.setTitle(\"Select Difficulty\"); //setTitle of frame\r\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n        frame.setResizable(false);\r\n        frame.setSize(600, 600);\r\n        frame.setVisible(true);\r\n        frame.setLayout(null);\r\n\r\n        setButton(easy, BX, BY, B_WIDTH, B_HEIGHT);\r\n        setButton(medium, BX, BY+100, B_WIDTH, B_HEIGHT);\r\n        setButton(hard, BX, BY+200, B_WIDTH, B_HEIGHT);\r\n\r\n        label.setBounds(0, 0, 100, 50);\r\n        label.setHorizontalAlignment(JLabel.CENTER);\r\n        label.setText(\"Select Difficulty\");\r\n\r\n        /**Προσθήκη συστατικών*/\r\n        frame.add(easy);\r\n        frame.add(medium);\r\n        frame.add(hard);\r\n        frame.add(label);\r\n    }\r\n\r\n    /**\r\n     * Μέθοδος δημιουργίας Κουμπιών\r\n     */\r\n    public void setButton(JButton button, int x, int y, int width, int height) {\r\n        button.setBounds(x, y, width, height);\r\n        button.setFocusable(false);\r\n        button.addActionListener(this);\r\n        button.setHorizontalAlignment(JButton.CENTER);\r\n    }\r\n\r\n    /**\r\n     * Ενέργεια όταν κάνουμε κλικ στο κουμπί\r\n     */\r\n    @Override\r\n    public void actionPerformed(ActionEvent e) {\r\n        if (e.getSource() == easy) {\r\n            //new EasyLabyrinths();\r\n            difficulty = \"easy\";\r\n        } else if (e.getSource() == medium) {\r\n            //new MediumLabyrinths();\r\n            difficulty = \"medium\";\r\n        } else {\r\n            //new HardLabyrinths();\r\n            difficulty = \"hard\";\r\n        }\r\n        //Κάθε κατηγορία λαβύρινθου να κάνει extend την κλάση Labyrinth!\r\n        frame.dispose();\r\n    }\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/Levels.java b/src/main/java/Levels.java
+---- a/src/main/java/Levels.java	(revision 5aef6c912f25339878e9873063d239310bd5a0e4)
+-+++ b/src/main/java/Levels.java	(date 1637231473918)
+-@@ -9,17 +9,20 @@
+-  */
+- public class Levels implements ActionListener {
+- 
+--    /**Initialize μεταβλητών διαστάσεων*/
+--    private final int BX=225;
+--    private final int BY=200;
+--    private final int B_WIDTH=150;
+--    private final int B_HEIGHT=50;
+-+    /**
+-+     * Initialize μεταβλητών διαστάσεων
+-+     */
+-+    private final int BX = 225;
+-+    private final int BY = 200;
+-+    private final int B_WIDTH = 150;
+-+    private final int B_HEIGHT = 50;
+- 
+-     JFrame frame;
+-     JButton easy = new JButton("Easy");
+-     JButton medium = new JButton("Medium");
+-     JButton hard = new JButton("Hard");
+-     JLabel label = new JLabel();
+-+    private ImageIcon icon=new ImageIcon("src/main/resources/Icon.png");
+-     /**
+-      * Θέλουμε να γνωρίζει η κλάση labyrinth το επίπεδο δυσκολίας που επίλεξε
+-      */
+-@@ -35,9 +38,9 @@
+-         frame.setVisible(true);
+-         frame.setLayout(null);
+- 
+--        setButton(easy, BX, BY, B_WIDTH, B_HEIGHT);
+--        setButton(medium, BX, BY+100, B_WIDTH, B_HEIGHT);
+--        setButton(hard, BX, BY+200, B_WIDTH, B_HEIGHT);
+-+        setButton(easy, BY);
+-+        setButton(medium, BY + 100);
+-+        setButton(hard, BY + 200);
+- 
+-         label.setBounds(0, 0, 100, 50);
+-         label.setHorizontalAlignment(JLabel.CENTER);
+-@@ -53,8 +56,8 @@
+-     /**
+-      * Μέθοδος δημιουργίας Κουμπιών
+-      */
+--    public void setButton(JButton button, int x, int y, int width, int height) {
+--        button.setBounds(x, y, width, height);
+-+    public void setButton(JButton button, int y) {
+-+        button.setBounds(BX, y, B_WIDTH, B_HEIGHT);
+-         button.setFocusable(false);
+-         button.addActionListener(this);
+-         button.setHorizontalAlignment(JButton.CENTER);
+-Index: src/main/java/Description.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/Description.java b/src/main/java/Description.java
+-new file mode 100644
+---- /dev/null	(date 1637190218464)
+-+++ b/src/main/java/Description.java	(date 1637190218464)
+-@@ -0,0 +1,20 @@
+-+import javax.swing.*;
+-+/**
+-+ * Κλάση που περιγράφει το παιχνίδι και την "πλοκή"
+-+ *
+-+ * @author Panagiotis Spanakis kai synergates
+-+ */
+-+public class Description {
+-+
+-+    JFrame frame;
+-+
+-+    public Description(){
+-+        frame = new JFrame(); //create frame
+-+        frame.setTitle("Game description"); //setTitle of frame
+-+        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+-+        frame.setResizable(false);
+-+        frame.setSize(600, 600);
+-+        frame.setVisible(true);
+-+        frame.setLayout(null);
+-+    }
+-+}
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8bd8264c-86bc-42b8-957d-e28ecafbda6b\" name=\"Changes\" comment=\"Gui comments\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Credits.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Credits.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Guide.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Guide.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Levels.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Levels.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Menu.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Menu.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Username.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Username.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Levels.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/Levels.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Main.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/Main.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Menu.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/Menu.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Username.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/Username.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaFXApplication\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"20xVOn3YTqvm2wi5F8tgNal13oY\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"copyright.profiles\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\panagiotis\\Desktop\\GitHub\\Hack-you\\Maven\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"Main (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cli.Main\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Maven\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ReadText\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cli.ReadText\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"StopWatch\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cli.StopWatch\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Maven-1.0-SNAPSHOT.jar\" type=\"JarApplication\" temporary=\"true\">\r\n      <option name=\"JAR_PATH\" value=\"$PROJECT_DIR$/target/Maven-1.0-SNAPSHOT.jar\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JAR Application.Maven-1.0-SNAPSHOT.jar\" />\r\n        <item itemvalue=\"Application.ReadText\" />\r\n        <item itemvalue=\"Application.Main (1)\" />\r\n        <item itemvalue=\"Application.StopWatch\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8bd8264c-86bc-42b8-957d-e28ecafbda6b\" name=\"Changes\" comment=\"\" />\r\n      <created>1636986198885</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1636986198885</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Spinoll\">\r\n      <created>1636988697356</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636988697356</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Add Classes\">\r\n      <created>1636993545921</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636993545921</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Add Classes\">\r\n      <created>1637144510966</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637144510966</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Add Classes\">\r\n      <created>1637169742771</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637169742771</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Read files\">\r\n      <created>1637170029134</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637170029134</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Read files\">\r\n      <created>1637170873161</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637170873161</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"GUI\">\r\n      <created>1637177589097</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637177589097</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"GUI\">\r\n      <created>1637181985653</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637181985653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Gui updated\">\r\n      <created>1637183524943</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637183524943</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Gui comments\">\r\n      <created>1637184936967</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637184936967</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Gui comments\">\r\n      <created>1637186963916</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637186963916</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Spinoll\" />\r\n    <MESSAGE value=\"Add Classes\" />\r\n    <MESSAGE value=\"Read files\" />\r\n    <MESSAGE value=\"GUI\" />\r\n    <MESSAGE value=\"Gui updated\" />\r\n    <MESSAGE value=\"Gui comments\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Gui comments\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 5aef6c912f25339878e9873063d239310bd5a0e4)
+-+++ b/.idea/workspace.xml	(date 1637231549152)
+-@@ -4,18 +4,17 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="8bd8264c-86bc-42b8-957d-e28ecafbda6b" name="Changes" comment="Gui comments">
+-+    <list default="true" id="8bd8264c-86bc-42b8-957d-e28ecafbda6b" name="Changes" comment="adjustments to gui">
+-+      <change afterPath="$PROJECT_DIR$/src/main/java/Description.java" afterDir="false" />
+-+      <change afterPath="$PROJECT_DIR$/src/main/resources/Icon.png" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Credits.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/Guide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guide.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/Levels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Levels.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/Username.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Username.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/target/classes/Levels.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Levels.class" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/target/classes/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Menu.class" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/target/classes/Username.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Username.class" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -208,7 +207,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1637186963916</updated>
+-     </task>
+--    <option name="localTasksCounter" value="12" />
+-+    <task id="LOCAL-00012" summary="adjustments to gui">
+-+      <created>1637188142753</created>
+-+      <option name="number" value="00012" />
+-+      <option name="presentableId" value="LOCAL-00012" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1637188142753</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="13" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -230,6 +236,7 @@
+-     <MESSAGE value="GUI" />
+-     <MESSAGE value="Gui updated" />
+-     <MESSAGE value="Gui comments" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Gui comments" />
+-+    <MESSAGE value="adjustments to gui" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="adjustments to gui" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: src/main/java/Credits.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import javax.swing.*;\r\n\r\n/**\r\n * Κλάση για παρουσίαση μελών και ρόλων αυτών\r\n *\r\n * @author Panagiotis Spanakis kai synergates\r\n */\r\n\r\n\r\npublic class Credits {\r\n\r\n    JFrame frame;\r\n\r\n    public Credits() {\r\n        // Εξατομίκευση παραθύρου\r\n        frame = new JFrame(); //create frame\r\n        frame.setTitle(\"Credits\"); //setTitle of frame\r\n        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);\r\n        frame.setResizable(false);\r\n        frame.setSize(600, 600);\r\n        frame.setVisible(true);\r\n        frame.setLayout(null);\r\n    }\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/Credits.java b/src/main/java/Credits.java
+---- a/src/main/java/Credits.java	(revision 5aef6c912f25339878e9873063d239310bd5a0e4)
+-+++ b/src/main/java/Credits.java	(date 1637189475635)
+-@@ -6,7 +6,7 @@
+-  * @author Panagiotis Spanakis kai synergates
+-  */
+- 
+--
+-+/**Ιδέα να φορτώνουν τα credits όπως στις ταινίες*/
+- public class Credits {
+- 
+-     JFrame frame;
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_μ_μ__[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_μ_μ__[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_μ_μ__[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_μ_μ__[Changes]/shelved.patch	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ /dev/null	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
+@@ -1,73 +0,0 @@
+-Index: src/main/java/Guide.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import javax.swing.*;\r\n\r\n/**\r\n * Κλάση για περιγραφή οδηγιών\r\n *\r\n * @author Panagiotis Spanakis kai synergates\r\n */\r\n\r\npublic class Guide {\r\n\r\n    JFrame frame;\r\n    public Guide() {\r\n        // Εξατομίκευση παραθύρου\r\n        frame = new JFrame(); //create frame\r\n        frame.setTitle(\"Guide\"); //setTitle of frame\r\n        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);\r\n        frame.setResizable(false);\r\n        frame.setSize(600, 600);\r\n        frame.setVisible(true);\r\n        frame.setLayout(null);\r\n    }\r\n\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/main/java/Guide.java b/src/main/java/Guide.java
+---- a/src/main/java/Guide.java	(revision 9fcd642c6e2c87bbe1711eab17fdac7da6c65b73)
+-+++ b/src/main/java/Guide.java	(date 1637231765934)
+-@@ -9,6 +9,7 @@
+- public class Guide {
+- 
+-     JFrame frame;
+-+
+-     public Guide() {
+-         // Εξατομίκευση παραθύρου
+-         frame = new JFrame(); //create frame
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8bd8264c-86bc-42b8-957d-e28ecafbda6b\" name=\"Changes\" comment=\"adjustments to gui\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Description.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/Icon.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Credits.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Credits.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Guide.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Guide.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Levels.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Levels.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Menu.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Menu.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Username.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Username.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Levels.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/Levels.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Menu.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/Menu.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaFXApplication\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"20xVOn3YTqvm2wi5F8tgNal13oY\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"copyright.profiles\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\panagiotis\\Desktop\\GitHub\\Hack-you\\Maven\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"Main (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cli.Main\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Maven\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ReadText\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cli.ReadText\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"StopWatch\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cli.StopWatch\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Maven-1.0-SNAPSHOT.jar\" type=\"JarApplication\" temporary=\"true\">\r\n      <option name=\"JAR_PATH\" value=\"$PROJECT_DIR$/target/Maven-1.0-SNAPSHOT.jar\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JAR Application.Maven-1.0-SNAPSHOT.jar\" />\r\n        <item itemvalue=\"Application.ReadText\" />\r\n        <item itemvalue=\"Application.Main (1)\" />\r\n        <item itemvalue=\"Application.StopWatch\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8bd8264c-86bc-42b8-957d-e28ecafbda6b\" name=\"Changes\" comment=\"\" />\r\n      <created>1636986198885</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1636986198885</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Spinoll\">\r\n      <created>1636988697356</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636988697356</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Add Classes\">\r\n      <created>1636993545921</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636993545921</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Add Classes\">\r\n      <created>1637144510966</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637144510966</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Add Classes\">\r\n      <created>1637169742771</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637169742771</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Read files\">\r\n      <created>1637170029134</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637170029134</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Read files\">\r\n      <created>1637170873161</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637170873161</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"GUI\">\r\n      <created>1637177589097</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637177589097</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"GUI\">\r\n      <created>1637181985653</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637181985653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Gui updated\">\r\n      <created>1637183524943</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637183524943</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Gui comments\">\r\n      <created>1637184936967</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637184936967</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Gui comments\">\r\n      <created>1637186963916</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637186963916</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"adjustments to gui\">\r\n      <created>1637188142753</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637188142753</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Spinoll\" />\r\n    <MESSAGE value=\"Add Classes\" />\r\n    <MESSAGE value=\"Read files\" />\r\n    <MESSAGE value=\"GUI\" />\r\n    <MESSAGE value=\"Gui updated\" />\r\n    <MESSAGE value=\"Gui comments\" />\r\n    <MESSAGE value=\"adjustments to gui\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"adjustments to gui\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 9fcd642c6e2c87bbe1711eab17fdac7da6c65b73)
+-+++ b/.idea/workspace.xml	(date 1637232180548)
+-@@ -4,17 +4,9 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="8bd8264c-86bc-42b8-957d-e28ecafbda6b" name="Changes" comment="adjustments to gui">
+--      <change afterPath="$PROJECT_DIR$/src/main/java/Description.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/main/resources/Icon.png" afterDir="false" />
+-+    <list default="true" id="8bd8264c-86bc-42b8-957d-e28ecafbda6b" name="Changes" comment="Update gui">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/main/java/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Credits.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/main/java/Guide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guide.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/main/java/Levels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Levels.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/main/java/Username.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Username.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/target/classes/Levels.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Levels.class" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/target/classes/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Menu.class" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -214,7 +206,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1637188142753</updated>
+-     </task>
+--    <option name="localTasksCounter" value="13" />
+-+    <task id="LOCAL-00013" summary="Update gui">
+-+      <created>1637231710648</created>
+-+      <option name="number" value="00013" />
+-+      <option name="presentableId" value="LOCAL-00013" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1637231710648</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="14" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -237,6 +236,7 @@
+-     <MESSAGE value="Gui updated" />
+-     <MESSAGE value="Gui comments" />
+-     <MESSAGE value="adjustments to gui" />
+--    <option name="LAST_COMMIT_MESSAGE" value="adjustments to gui" />
+-+    <MESSAGE value="Update gui" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Update gui" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_____Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_____Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_____Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_____Changes_.xml	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ /dev/null	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_18_11_2021_12_44_μ_μ__[Changes]" date="1637232252498" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_μ_μ__[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 18/11/2021 12:44 μ.μ. [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_____Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_____Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_____Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_____Changes_.xml	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ /dev/null	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
+@@ -1,19 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]" date="1637231655543" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 18/11/2021 12:33 μ.μ. [Changes]" />
+-  <binary>
+-    <option name="BEFORE_PATH" value="target/classes/Levels.class" />
+-    <option name="AFTER_PATH" value="target/classes/Levels.class" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/Levels.class" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value="target/classes/Menu.class" />
+-    <option name="AFTER_PATH" value="target/classes/Menu.class" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/Menu.class" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="src/main/resources/Icon.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/Icon.png" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>Maven</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>8</maven.compiler.source>\r\n        <maven.compiler.target>8</maven.compiler.target>\r\n    </properties>\r\n    <!-- library dependencies -->\r\n    <dependencies>\r\n        <dependency>\r\n\r\n            <!-- coordinates of the required library -->\r\n            <groupId>junit</groupId>\r\n            <artifactId>junit</artifactId>\r\n            <version>4.13.2</version>\r\n\r\n            <!-- this dependency is only used for running and compiling tests -->\r\n            <scope>test</scope>\r\n        </dependency>\r\n    </dependencies>\r\n\r\n    <reporting>\r\n        <plugins>\r\n\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-checkstyle-plugin</artifactId>\r\n                <version>2.13</version>\r\n                <reportSets>\r\n                    <reportSet>\r\n                        <reports>\r\n                            <report>checkstyle</report>\r\n                        </reports>\r\n                    </reportSet>\r\n                </reportSets>\r\n            </plugin>\r\n\r\n            <plugin>\r\n                <groupId>org.codehaus.mojo</groupId>\r\n                <artifactId>findbugs-maven-plugin</artifactId>\r\n                <version>3.0.4</version>\r\n            </plugin>\r\n\r\n        </plugins>\r\n    </reporting>\r\n\r\n    <build>\r\n        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->\r\n            <plugins>\r\n                <plugin>\r\n                    <groupId>org.codehaus.mojo</groupId>\r\n                    <artifactId>findbugs-maven-plugin</artifactId>\r\n                    <version>3.0.4</version>\r\n                    <configuration>\r\n                        <effort>Max</effort>\r\n                        <threshold>Low</threshold>\r\n                        <xmlOutput>true</xmlOutput>\r\n                    </configuration>\r\n                    <executions>\r\n                        <execution>\r\n                            <phase>verify</phase>\r\n                            <goals>\r\n                                <goal>check</goal>\r\n                            </goals>\r\n                        </execution>\r\n                    </executions>\r\n                </plugin>\r\n                <!-- For Javadoc -->\r\n                <plugin>\r\n                    <groupId>org.apache.maven.plugins</groupId>\r\n                    <artifactId>maven-javadoc-plugin</artifactId>\r\n                    <version>3.0.0</version>\r\n                    <configuration>\r\n                        <source>1.8</source>\r\n                       <!-- <target>1.8</target> -->\r\n                    </configuration>\r\n                </plugin>\r\n            </plugins>\r\n        </pluginManagement>\r\n    </build>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/pom.xml	(date 1637801709295)
+@@ -78,8 +78,8 @@
+                     <artifactId>maven-javadoc-plugin</artifactId>
+                     <version>3.0.0</version>
+                     <configuration>
+-                        <source>1.8</source>
+-                       <!-- <target>1.8</target> -->
++                        <source>1.9</source>
++                        <!-- <target>1.8</target> -->
+                     </configuration>
+                 </plugin>
+             </plugins>
+Index: target/classes/testfile.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>jjghkjkj\r\nhgnghgh\r\nhjhjajk\r\njkajah\r\nhjshjhj\r\nnbaoak\r\nspyros
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/testfile.txt b/target/classes/testfile.txt
+--- a/target/classes/testfile.txt	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/target/classes/testfile.txt	(date 1637798880046)
+@@ -1,4 +1,4 @@
+-jjghkjkj
++jghkjkj
+ hgnghgh
+ hjhjajk
+ jkajah
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8bd8264c-86bc-42b8-957d-e28ecafbda6b\" name=\"Changes\" comment=\"Add Options to LabyrinthFrame\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2021_7_15_____Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2021_7_15_μ_μ__[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ButtonSetter.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Credits.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Description.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Game.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Guide.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Labyrinth.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/LabyrinthFrame.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/LabyrinthPanel.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Levels.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Main.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Menu.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Options.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Questions.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Quiz.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/QuizFrame.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Username.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/avatar.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Levels.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Main.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Menu.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Questions.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Username.class\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaFXApplication\" />\r\n        <option value=\"editable-svg\" />\r\n        <option value=\"UML Class\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"20xVOn3YTqvm2wi5F8tgNal13oY\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultPlantUmlFileTemplate\" value=\"UML Class\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/main/java\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\geoar\\Documents\\GitHub\\Hack-you3\\Maven\\src\\main\\resources\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\panagiotis\\Desktop\\GitHub\\Hack-you\\Maven\\src\\main\\resources\" />\r\n      <recent name=\"C:\\Users\\geoar\\Documents\\GitHub\\Hack-you3\\Maven\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main (3)\">\r\n    <configuration name=\"Main (2)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"game.Main\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"game.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main (3)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test.Main\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Maven\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ReadText\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cli.ReadText\" />\r\n      <module name=\"Maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Maven-1.0-SNAPSHOT.jar\" type=\"JarApplication\" temporary=\"true\">\r\n      <option name=\"JAR_PATH\" value=\"$PROJECT_DIR$/target/Maven-1.0-SNAPSHOT.jar\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main (3)\" />\r\n        <item itemvalue=\"Application.Main (2)\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JAR Application.Maven-1.0-SNAPSHOT.jar\" />\r\n        <item itemvalue=\"Application.ReadText\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8bd8264c-86bc-42b8-957d-e28ecafbda6b\" name=\"Changes\" comment=\"\" />\r\n      <created>1636986198885</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1636986198885</updated>\r\n      <workItem from=\"1637694631856\" duration=\"766000\" />\r\n      <workItem from=\"1637695458384\" duration=\"5941000\" />\r\n      <workItem from=\"1637704772573\" duration=\"132000\" />\r\n      <workItem from=\"1637704936175\" duration=\"2000\" />\r\n      <workItem from=\"1637777155201\" duration=\"8690000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Spinoll\">\r\n      <created>1636988697356</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636988697356</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Add Classes\">\r\n      <created>1636993545921</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636993545921</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Add Classes\">\r\n      <created>1637144510966</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637144510966</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Add Classes\">\r\n      <created>1637169742771</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637169742771</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Read files\">\r\n      <created>1637170029134</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637170029134</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Read files\">\r\n      <created>1637170873161</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637170873161</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"GUI\">\r\n      <created>1637177589097</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637177589097</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"GUI\">\r\n      <created>1637181985653</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637181985653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Gui updated\">\r\n      <created>1637183524943</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637183524943</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Gui comments\">\r\n      <created>1637184936967</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637184936967</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Gui comments\">\r\n      <created>1637186963916</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637186963916</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"adjustments to gui\">\r\n      <created>1637188142753</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637188142753</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Add Icon\">\r\n      <created>1637232230868</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637232230868</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\" add resources\">\r\n      <created>1637336296756</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637336296756</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Add QuizFrame\">\r\n      <created>1637349421038</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637349421038</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Add QuizFrame\">\r\n      <created>1637349910630</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637349910630</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"new username\">\r\n      <created>1637374653338</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637374653338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Easy Questions\">\r\n      <created>1637611184821</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637611184821</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"Medium Questions\">\r\n      <created>1637612837328</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637612837328</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Hard Questions\">\r\n      <created>1637614577017</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637614577017</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Spinoll\" />\r\n    <MESSAGE value=\"Add Classes\" />\r\n    <MESSAGE value=\"Read files\" />\r\n    <MESSAGE value=\"GUI\" />\r\n    <MESSAGE value=\"Gui updated\" />\r\n    <MESSAGE value=\"Gui comments\" />\r\n    <MESSAGE value=\"adjustments to gui\" />\r\n    <MESSAGE value=\"Add Icon\" />\r\n    <MESSAGE value=\" add resources\" />\r\n    <MESSAGE value=\"Add QuizFrame\" />\r\n    <MESSAGE value=\"new username\" />\r\n    <MESSAGE value=\"Easy Questions\" />\r\n    <MESSAGE value=\"Medium Questions\" />\r\n    <MESSAGE value=\"Hard Questions\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Hard Questions\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/Maven$Main.ic\" NAME=\"Main Coverage Results\" MODIFIED=\"1637701809465\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/.idea/workspace.xml	(date 1637922776576)
+@@ -4,32 +4,38 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8bd8264c-86bc-42b8-957d-e28ecafbda6b" name="Changes" comment="Add Options to LabyrinthFrame">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2021_7_15_____Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2021_7_15_μ_μ__[Changes]/shelved.patch" beforeDir="false" />
++    <list default="true" id="8bd8264c-86bc-42b8-957d-e28ecafbda6b" name="Changes" comment="Adding FrameSetter and upgrading ButtonSetter while fixing restart issues">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_____Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_33_μ_μ__[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_____Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2021_12_44_μ_μ__[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ButtonSetter.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Credits.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Description.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Guide.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Labyrinth.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/LabyrinthFrame.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/LabyrinthPanel.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Levels.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Options.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Questions.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Quiz.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/QuizFrame.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Username.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/avatar.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/Levels.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/Menu.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/Questions.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/Username.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/game/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Quiz.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/test/Avatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Avatar.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/test/Avatar2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Avatar2.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Easy Answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Easy Answers.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Easy Questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Easy Questions.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/EasyQuestions.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Hard Options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Hard Options.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Hard Questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Hard Questions.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Medium Options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Medium Options.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Medium Questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Medium Questions.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testfile.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Easy Answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Easy Answers.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Easy Questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Easy Questions.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/EasyQuestions.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Hard Options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hard Options.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Hard Questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hard Questions.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Medium Options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Medium Options.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Medium Questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Medium Questions.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/game/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Menu.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/game/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Quiz.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/test/Avatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Avatar.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/test/Avatar2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Avatar2.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Main.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testfile.txt" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -66,12 +72,14 @@
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="DatabaseDriversLRU" value="sqlserver" />
+     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
++    <property name="extract.method.default.visibility" value="private" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+     <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.2" />
+@@ -79,14 +87,32 @@
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\panagiotis\Desktop\GitHub\Hack-you\Maven\src\main\resources" />
+       <recent name="C:\Users\geoar\Documents\GitHub\Hack-you3\Maven\src\main\resources" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\panagiotis\Desktop\GitHub\Hack-you\Maven\src\main\resources" />
+       <recent name="C:\Users\geoar\Documents\GitHub\Hack-you3\Maven\src\main\resources" />
+     </key>
++    <key name="CopyClassDialog.RECENTS_KEY">
++      <recent name="test2" />
++      <recent name="test" />
++    </key>
+   </component>
+-  <component name="RunManager" selected="Application.Main (3)">
++  <component name="RunManager" selected="Application.Main (2)">
++    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="test2.Main" />
++      <module name="Maven" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="test2.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="game.Main" />
+       <module name="Maven" />
+@@ -116,19 +142,6 @@
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Main" />
+       <module name="Maven" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="ReadText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="cli.ReadText" />
+-      <module name="Maven" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="cli.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -139,11 +152,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Main (3)" />
+         <item itemvalue="Application.Main (2)" />
++        <item itemvalue="Application.Main (3)" />
++        <item itemvalue="Application.Main (1)" />
+         <item itemvalue="Application.Main" />
+         <item itemvalue="JAR Application.Maven-1.0-SNAPSHOT.jar" />
+-        <item itemvalue="Application.ReadText" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -159,7 +172,13 @@
+       <workItem from="1637695458384" duration="5941000" />
+       <workItem from="1637704772573" duration="132000" />
+       <workItem from="1637704936175" duration="2000" />
+-      <workItem from="1637777155201" duration="8690000" />
++      <workItem from="1637777155201" duration="14273000" />
++      <workItem from="1637798364886" duration="2868000" />
++      <workItem from="1637801276113" duration="105000" />
++      <workItem from="1637801407653" duration="292000" />
++      <workItem from="1637836469913" duration="2981000" />
++      <workItem from="1637866026370" duration="7750000" />
++      <workItem from="1637921815285" duration="940000" />
+     </task>
+     <task id="LOCAL-00001" summary="Spinoll">
+       <created>1636988697356</created>
+@@ -301,7 +320,42 @@
+       <option name="project" value="LOCAL" />
+       <updated>1637614577017</updated>
+     </task>
+-    <option name="localTasksCounter" value="21" />
++    <task id="LOCAL-00021" summary="Create package game and optimize Avatar">
++      <created>1637792614972</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1637792614972</updated>
++    </task>
++    <task id="LOCAL-00022" summary="Create package game and optimize Avatar">
++      <created>1637792726681</created>
++      <option name="number" value="00022" />
++      <option name="presentableId" value="LOCAL-00022" />
++      <option name="project" value="LOCAL" />
++      <updated>1637792726681</updated>
++    </task>
++    <task id="LOCAL-00023" summary="Implement feature of restart and fix Options window">
++      <created>1637799641588</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1637799641588</updated>
++    </task>
++    <task id="LOCAL-00024" summary="Test folder for Avatar,Quiz">
++      <created>1637800707032</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1637800707032</updated>
++    </task>
++    <task id="LOCAL-00025" summary="Adding FrameSetter and upgrading ButtonSetter while fixing restart issues">
++      <created>1637879455213</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1637879455213</updated>
++    </task>
++    <option name="localTasksCounter" value="26" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -334,7 +388,11 @@
+     <MESSAGE value="Easy Questions" />
+     <MESSAGE value="Medium Questions" />
+     <MESSAGE value="Hard Questions" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Hard Questions" />
++    <MESSAGE value="Create package game and optimize Avatar" />
++    <MESSAGE value="Implement feature of restart and fix Options window" />
++    <MESSAGE value="Test folder for Avatar,Quiz" />
++    <MESSAGE value="Adding FrameSetter and upgrading ButtonSetter while fixing restart issues" />
++    <option name="LAST_COMMIT_MESSAGE" value="Adding FrameSetter and upgrading ButtonSetter while fixing restart issues" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/Maven$Main.ic" NAME="Main Coverage Results" MODIFIED="1637701809465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+Index: src/main/java/test/Avatar.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package test;\r\nimport javax.swing.*;\r\nimport java.awt.*;\r\nimport java.awt.event.KeyEvent;\r\nimport java.awt.event.KeyListener;\r\npublic class Avatar extends JFrame implements KeyListener {\r\n    private int c1=0;\r\n    private int c2=0;\r\n    private int c3=0;\r\n    private int c4=0;\r\n    private int[] c={0,0,0,0};\r\n\r\n    private final int speed=4;\r\n    private ImageIcon[] up=new ImageIcon[9];\r\n    private ImageIcon[] down=new ImageIcon[9];\r\n    private ImageIcon[] right=new ImageIcon[9];\r\n    private ImageIcon[] left=new ImageIcon[9];\r\n\r\n\r\n    JLabel move= new JLabel();\r\n    public Avatar()  {\r\n        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n        this.setSize(500,500);\r\n        this.setLayout(null);\r\n        this.addKeyListener(this);\r\n        this.getContentPane().setBackground(new Color(128,128,128));\r\n        this.setVisible(true);\r\n        setMovement(up,\"thiseaswalkingup\");\r\n        setMovement(down,\"thiseaswalkingdown\");\r\n        setMovement(right,\"thiseaswalkingright\");\r\n        setMovement(left,\"thiseaswalkingleft\");\r\n        move.setBounds(100,100,64,65);\r\n        move.setIcon(down[0]);\r\n        this.add(move);\r\n    }\r\n\r\n    public void setMovement(ImageIcon[] imageIcons,String move){\r\n        for(int i=0;i<imageIcons.length;i++){\r\n            imageIcons[i]=new ImageIcon(String.format(\"src/main/resources/thiseas2/%s%d.png\",move,i+1));\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public void keyTyped(KeyEvent e) {\r\n        switch (Character.toLowerCase(e.getKeyChar())) {\r\n            case 'a':\r\n            case 'α':\r\n                c1 = c1 + 1;\r\n                move.setLocation(move.getX() - speed, move.getY());\r\n                if(c1>9) {\r\n                    c1 = 0;\r\n                    break;\r\n                }\r\n                move.setIcon(left[c1-1]);\r\n                break;\r\n            case 'w':\r\n            case 'ς':\r\n                c2=c2+1;\r\n                move.setLocation(move.getX(),move.getY()-speed);\r\n                if(c2>9) {\r\n                    c2 = 0;\r\n                    break;\r\n                }\r\n                move.setIcon(up[c2-1]);\r\n                break;\r\n            case 'd':\r\n            case 'δ':\r\n                move.setLocation(move.getX()+speed,move.getY());\r\n                c3 = c3 + 1;\r\n                if(c3>9) {\r\n                    c3 = 0;\r\n                    break;\r\n                }\r\n                move.setIcon(right[c3-1]);\r\n                break;\r\n            case 's':\r\n            case 'σ':\r\n                c4 = c4 + 1;\r\n                move.setLocation(move.getX() , move.getY()+speed);\r\n                if(c4>9) {\r\n                    c4 = 0;\r\n                    break;\r\n                }\r\n                move.setIcon(down[c4-1]);\r\n                break;\r\n        }\r\n\r\n\r\n    }\r\n\r\n    @Override\r\n    public void keyPressed(KeyEvent e) {\r\n    }\r\n\r\n    @Override\r\n    public void keyReleased(KeyEvent e) {\r\n        System.out.println(\"you released char   \"+ e.getKeyChar());\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/test/Avatar.java b/src/main/java/test/Avatar.java
+--- a/src/main/java/test/Avatar.java	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/src/main/java/test/Avatar.java	(date 1637879168975)
+@@ -8,7 +8,6 @@
+     private int c2=0;
+     private int c3=0;
+     private int c4=0;
+-    private int[] c={0,0,0,0};
+ 
+     private final int speed=4;
+     private ImageIcon[] up=new ImageIcon[9];
+@@ -16,7 +15,6 @@
+     private ImageIcon[] right=new ImageIcon[9];
+     private ImageIcon[] left=new ImageIcon[9];
+ 
+-
+     JLabel move= new JLabel();
+     public Avatar()  {
+         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+@@ -42,6 +40,7 @@
+ 
+     @Override
+     public void keyTyped(KeyEvent e) {
++        int flg=0;
+         switch (Character.toLowerCase(e.getKeyChar())) {
+             case 'a':
+             case 'α':
+@@ -85,7 +84,6 @@
+                 break;
+         }
+ 
+-
+     }
+ 
+     @Override
+Index: target/classes/Easy Questions.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>4.\tΠοιο ήταν το ιερό ζώο στην αρχαία Κρήτη κατά τα Μινωικά χρόνια;\r\n7.\tΠότε έγινε η Ναυμαχία της Σαλαμίνας;\r\n12.\tΠοιο πολίτευμα ονομαζόταν και «τιμοκρατικό»;\r\n17.\tΠοια χρονιά ξεκίνησε ο Πελοποννησιακός Πόλεμος;\r\n18.\tΠότε πέθανε ο Μέγας Αλέξανδρος;\r\n20.\tΠότε ιδρύθηκε η Φιλική Εταιρεία;\r\n21.\tΠοια χρονολογία δολοφονήθηκε ο πρώτος Κυβερνήτης της Ελλάδας, Ιωάννης Καποδίστριας;\r\n24.\tΠότε υπογράφηκε η συνθήκη ένταξης της Ελλάδας στην Ευρωπαϊκή Ένωση;\r\n28.\tΠοιος Έλληνας πρωθυπουργός αρνήθηκε την άνευ όρων ελεύθερη είσοδο των Ιταλικών δυνάμεων στην Ελλάδα;\r\n31.\tΤι δώρισε η θεά Αθηνά στην πόλη της Αθήνας, ώστε η πόλη να πάρει το όνομά της;\r\n34.\tΠοιος βοήθησε τον Ιάσονα να κλέψει το Χρυσόμαλλο Δέρας;\r\n44.\tΠοιος ήρωας αντιμετώπισε τις Στυμφαλίδες Όρνιθες;\r\n47.\tΤι σήκωνε στους ώμους του ο Άτλαντας;\r\n48.\tΣε ποια θεά έδωσε ο Πάρης το μήλο της Έριδος;\r\n50.\tΤι έπρεπε να βρει ο Ιάσωνας για να κερδίσει τον θρόνο του;\r\n51.\tΠοιο ήταν το όνομα του πιστού σκύλου του Οδυσσέα;\r\n56.\tΠόσες ήταν οι Μούσες;\r\n59.\tΠοιος έφτιαξε τον Λαβύρινθο για τον Βασιλιά Μίνωα;\r\n60.\tΠόσα χρόνια κράτησε ο πόλεμος στην Τροία;\r\n64.\tΠοιο νησί βρίσκεται βορειότερα στην Ελλάδα;\r\n70.\tΣε ποιο νομό βρίσκονται τα Ζαγοροχώρια;\r\n72.\tΠοιο είναι το δεύτερο μεγαλύτερο νησί της Ελλάδας;\r\n73.\tΠόσα είναι τα γεωγραφικά διαμερίσματα της Ελλάδας;\r\n74.\tΠοια είναι η πρωτεύουσα του νομού Αιτωλοακαρνανίας;\r\n75.\tΣε ποιο σύμπλεγμα νησιών ανήκει η Τζιά;\r\n76.\tΠοια είναι η πρωτεύουσα του νομού Αργολίδας;\r\n81.\tΑπό ποιο πέλαγος βρέχεται στα νότια της η Ελλάδα;\r\n87.\tΠρωτεύουσα του νομού Ροδόπης είναι \r\n89.\tΠόσους νομούς έχει η Κρήτη;\r\n91.\tΠοια ηρωική έξοδο ζωγράφισε ο Θεόδωρος Βρυζάκης;  \r\n92.\tΠοιας Ελληνίδας πεζογράφου έργο είναι το «Παραμύθι χωρίς όνομα»;\r\n93.\tΣε ποιον Έλληνα ποιητή ανήκει ο στίχος «Αυτός ο κόσμος ο μικρός ο μέγας»;\r\n102.\tΠοιου αρχαίου συγγραφέα είναι έργο οι «Θεσμοφοριάζουσες»;\r\n103.\tΠοιος αρχαίος συγγραφέας έγραψε το έργο «Πολιτεία»;\r\n108.\tΠόσες Καρυάτιδες κοσμούσαν το Ερέχθειο στον Ακρόπολη;\r\n113.\tΠοιος από τους παρακάτω Έλληνες ποιητές έχουν βραβευτεί με Νόμπελ Λογοτεχνίας;\r\n118.\tΟ Οδυσσέας Ελύτης έγραψε:\r\n119.\tΟ Γιάννης Ρίτσος έγραψε:\r\n120.\tΠοιο δεν είναι έργο του Αριστοφάνη;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/Easy Questions.txt b/target/classes/Easy Questions.txt
+--- a/target/classes/Easy Questions.txt	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/target/classes/Easy Questions.txt	(date 1637797930461)
+@@ -30,19 +30,10 @@
+ 91.	Ποια ηρωική έξοδο ζωγράφισε ο Θεόδωρος Βρυζάκης;  
+ 92.	Ποιας Ελληνίδας πεζογράφου έργο είναι το «Παραμύθι χωρίς όνομα»;
+ 93.	Σε ποιον Έλληνα ποιητή ανήκει ο στίχος «Αυτός ο κόσμος ο μικρός ο μέγας»;
+-102.	Ποιου αρχαίου συγγραφέα είναι έργο οι «Θεσμοφοριάζουσες»;
+-103.	Ποιος αρχαίος συγγραφέας έγραψε το έργο «Πολιτεία»;
+-108.	Πόσες Καρυάτιδες κοσμούσαν το Ερέχθειο στον Ακρόπολη;
+-113.	Ποιος από τους παρακάτω Έλληνες ποιητές έχουν βραβευτεί με Νόμπελ Λογοτεχνίας;
+-118.	Ο Οδυσσέας Ελύτης έγραψε:
+-119.	Ο Γιάννης Ρίτσος έγραψε:
+-120.	Ποιο δεν είναι έργο του Αριστοφάνη;
+-
+-
+-
+-
+-
+-
+-
+-
+-
++102. Ποιου αρχαίου συγγραφέα είναι έργο οι «Θεσμοφοριάζουσες»;
++103. Ποιος αρχαίος συγγραφέας έγραψε το έργο «Πολιτεία»;
++108. Πόσες Καρυάτιδες κοσμούσαν το Ερέχθειο στον Ακρόπολη;
++113. Ποιος από τους παρακάτω Έλληνες ποιητές έχουν βραβευτεί με Νόμπελ Λογοτεχνίας;
++118. Ο Οδυσσέας Ελύτης έγραψε:
++119. Ο Γιάννης Ρίτσος έγραψε:
++120. Ποιο δεν είναι έργο του Αριστοφάνη;
+\ No newline at end of file
+Index: src/main/java/game/Quiz.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package game;\r\nimport java.awt.event.*;\r\nimport java.awt.*;\r\nimport java.util.Random;\r\nimport javax.swing.*;\r\nimport java.io.File;\r\nimport java.io.FileNotFoundException;\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\nimport java.util.Scanner;\r\n\r\n\r\n\r\npublic class Quiz implements ActionListener {\r\n    ArrayList<String> questions = new ArrayList<String>();\r\n    ArrayList<String> options = new ArrayList<String>();\r\n    ArrayList<Character> answers = new ArrayList<Character>();\r\n    char answer;\r\n    Random random = new Random();\r\n    int index;\r\n\r\n    //------------------------------//----------------------------------------//\r\n    protected static void setQuestionsDifficulty(){\r\n        switch (Levels.difficulty) {\r\n            case \"easy\":\r\n                // JOptionPane.showMessageDialog(null,\"1\",\"ferwu\",JOptionPane.INFORMATION_MESSAGE);\r\n                //file=EasyQuestions.txt\r\n                break;\r\n            case \"medium\":\r\n                //file=MediumQuestions.txt\r\n                break;\r\n            default:\r\n                //file=HardQuestions.txt\r\n                break;\r\n        }\r\n    }\r\n     //------------------------------//----------------------------------------//\r\n\r\n    JFrame frame = new JFrame();\r\n    JTextField textField = new JTextField();\r\n    JTextArea textArea = new JTextArea();\r\n    JButton buttonA = new JButton();\r\n    JButton buttonB = new JButton();\r\n    JButton buttonC = new JButton();\r\n    JButton buttonD = new JButton();\r\n    JLabel labelA = new JLabel();\r\n    JLabel labelB = new JLabel();\r\n    JLabel labelC = new JLabel();\r\n    JLabel labelD = new JLabel();\r\n\r\n    public Quiz() throws FileNotFoundException {\r\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n        frame.setSize(700, 550);\r\n        frame.setLayout(null);\r\n        frame.setResizable(false);\r\n\r\n        textField.setBounds(0, 0, 700, 50);\r\n        textField.setFont(new Font(\"Calibri\", Font.BOLD, 25));\r\n        textField.setBorder(BorderFactory.createBevelBorder(1));\r\n        textField.setHorizontalAlignment(JTextField.CENTER);\r\n        textField.setEditable(false);\r\n\r\n\r\n        textArea.setBounds(0, 50, 700, 50);\r\n        textArea.setLineWrap(true);\r\n        textArea.setWrapStyleWord(true);\r\n        textArea.setBackground(new Color(25, 25, 25));\r\n        textArea.setForeground(new Color(25, 255, 0));\r\n        textArea.setFont(new Font(\"Calibri\", Font.BOLD, 25));\r\n        textArea.setBorder(BorderFactory.createBevelBorder(1));\r\n        textArea.setEditable(false);\r\n\r\n        buttonA.setBounds(0, 100, 100, 100);\r\n        buttonA.setFont(new Font(\"Calibri\", Font.BOLD, 35));\r\n        buttonA.setFocusable(false);\r\n        buttonA.addActionListener(this);\r\n        buttonA.setText(\"A\");\r\n\r\n        buttonB.setBounds(0, 200, 100, 100);\r\n        buttonB.setFont(new Font(\"Calibri\", Font.BOLD, 35));\r\n        buttonB.setFocusable(false);\r\n        buttonB.addActionListener(this);\r\n        buttonB.setText(\"B\");\r\n\r\n        buttonC.setBounds(0, 300, 100, 100);\r\n        buttonC.setFont(new Font(\"Calibri\", Font.BOLD, 35));\r\n        buttonC.setFocusable(false);\r\n        buttonC.addActionListener(this);\r\n        buttonC.setText(\"C\");\r\n\r\n        buttonD.setBounds(0, 400, 100, 100);\r\n        buttonD.setFont(new Font(\"Calibri\", Font.BOLD, 35));\r\n        buttonD.setFocusable(false);\r\n        buttonD.addActionListener(this);\r\n        buttonD.setText(\"D\");\r\n\r\n        labelA.setBounds(125, 100, 500, 100);\r\n        labelA.setBackground(new Color(50, 50, 50));\r\n        labelA.setForeground(new Color(0, 72, 255));\r\n        labelA.setFont(new Font(\"Calibri\", Font.PLAIN, 20));\r\n\r\n\r\n        labelB.setBounds(125, 200, 500, 100);\r\n        labelB.setBackground(new Color(50, 50, 50));\r\n        labelB.setForeground(new Color(0, 72, 255));\r\n        labelB.setFont(new Font(\"Calibri\", Font.PLAIN, 20));\r\n\r\n        labelC.setBounds(125, 300, 500, 100);\r\n        labelC.setBackground(new Color(50, 50, 50));\r\n        labelC.setForeground(new Color(0, 72, 255));\r\n        labelC.setFont(new Font(\"Calibri\", Font.PLAIN, 20));\r\n\r\n        labelD.setBounds(125, 400, 500, 100);\r\n        labelD.setBackground(new Color(50, 50, 50));\r\n        labelD.setForeground(new Color(0, 72, 255));\r\n        labelD.setFont(new Font(\"Calibri\", Font.PLAIN, 20));\r\n\r\n        frame.add(labelA);\r\n        frame.add(labelB);\r\n        frame.add(labelC);\r\n        frame.add(labelD);\r\n        frame.add(buttonA);\r\n        frame.add(buttonB);\r\n        frame.add(buttonC);\r\n        frame.add(buttonD);\r\n        frame.add(textArea);\r\n        frame.add(textField);\r\n        frame.setVisible(true);\r\n\r\n\r\n        readQuestions();\r\n        index = random.nextInt(questions.size());\r\n\r\n        displayQuestion();\r\n\r\n    }\r\n\r\n    public void displayQuestion() {\r\n        textField.setText(\"Game\");\r\n        textArea.setText(questions.get(index));\r\n        labelA.setText(options.get(4 * index));\r\n        labelB.setText(options.get(4 * index + 1));\r\n        labelC.setText(options.get(4 * index + 2));\r\n        labelD.setText(options.get(4 * index + 3));\r\n\r\n    }\r\n\r\n\r\n    @Override\r\n    public void actionPerformed(ActionEvent e) {\r\n        if (e.getSource() == buttonA) {\r\n            answer = 'A';\r\n        } else if (e.getSource() == buttonB) {\r\n            answer = 'B';\r\n        } else if (e.getSource() == buttonC) {\r\n            answer = 'C';\r\n\r\n        } else if (e.getSource() == buttonD) {\r\n            answer = 'D';\r\n        }\r\n        checkAnswer();\r\n        frame.dispose();\r\n\r\n\r\n    }\r\n\r\n    public void correctAnswer() {\r\n        JOptionPane.showMessageDialog(null, \"Correct answer!\", \"Review\", JOptionPane.INFORMATION_MESSAGE);\r\n\r\n    }\r\n\r\n    public void wrongAnswer() {\r\n        JOptionPane.showMessageDialog(null, \"Wrong answer!\", \"Review\", JOptionPane.ERROR_MESSAGE);\r\n\r\n    }\r\n\r\n    public void checkAnswer() {\r\n        if (answer == answers.get(index)) {\r\n            correctAnswer();\r\n\r\n        } else wrongAnswer();\r\n\r\n    }\r\n\r\n    public void readQuestions() throws FileNotFoundException {\r\n        Scanner q = new Scanner(new File(\"src/Easy Questions.txt\"));\r\n        while (q.hasNextLine()) {\r\n            questions.add(q.nextLine());\r\n        }\r\n        Scanner o = new Scanner(new File(\"src/Easy Options.txt\"));\r\n        while (o.hasNextLine()) {\r\n            options.add(o.nextLine());\r\n        }\r\n        Scanner a = new Scanner(new File(\"src/Easy Answers.txt\"));\r\n        while (a.hasNext()) {\r\n            answers.add(a.next().charAt(0));\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/game/Quiz.java b/src/main/java/game/Quiz.java
+--- a/src/main/java/game/Quiz.java	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/src/main/java/game/Quiz.java	(date 1637801709285)
+@@ -1,26 +1,25 @@
+ package game;
+-import java.awt.event.*;
+-import java.awt.*;
+-import java.util.Random;
++
+ import javax.swing.*;
++import java.awt.*;
++import java.awt.event.ActionEvent;
++import java.awt.event.ActionListener;
+ import java.io.File;
+ import java.io.FileNotFoundException;
+ import java.util.ArrayList;
+-import java.util.List;
++import java.util.Random;
+ import java.util.Scanner;
+ 
+-
+-
+ public class Quiz implements ActionListener {
+     ArrayList<String> questions = new ArrayList<String>();
+     ArrayList<String> options = new ArrayList<String>();
+     ArrayList<Character> answers = new ArrayList<Character>();
+     char answer;
+-    Random random = new Random();
++    private final Random random = new Random();
+     int index;
+ 
+     //------------------------------//----------------------------------------//
+-    protected static void setQuestionsDifficulty(){
++    protected static void setQuestionsDifficulty() {
+         switch (Levels.difficulty) {
+             case "easy":
+                 // JOptionPane.showMessageDialog(null,"1","ferwu",JOptionPane.INFORMATION_MESSAGE);
+@@ -34,7 +33,7 @@
+                 break;
+         }
+     }
+-     //------------------------------//----------------------------------------//
++    //------------------------------//----------------------------------------//
+ 
+     JFrame frame = new JFrame();
+     JTextField textField = new JTextField();
+@@ -154,14 +153,11 @@
+             answer = 'B';
+         } else if (e.getSource() == buttonC) {
+             answer = 'C';
+-
+         } else if (e.getSource() == buttonD) {
+             answer = 'D';
+         }
+         checkAnswer();
+         frame.dispose();
+-
+-
+     }
+ 
+     public void correctAnswer() {
+@@ -183,15 +179,15 @@
+     }
+ 
+     public void readQuestions() throws FileNotFoundException {
+-        Scanner q = new Scanner(new File("src/Easy Questions.txt"));
++        Scanner q = new Scanner(new File("src/main/resources/Easy Questions.txt"));
+         while (q.hasNextLine()) {
+             questions.add(q.nextLine());
+         }
+-        Scanner o = new Scanner(new File("src/Easy Options.txt"));
++        Scanner o = new Scanner(new File("src/main/resources/Easy Options.txt"));
+         while (o.hasNextLine()) {
+             options.add(o.nextLine());
+         }
+-        Scanner a = new Scanner(new File("src/Easy Answers.txt"));
++        Scanner a = new Scanner(new File("src/main/resources/Easy Answers.txt"));
+         while (a.hasNext()) {
+             answers.add(a.next().charAt(0));
+         }
+Index: src/main/java/test/Avatar2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package test;\r\nimport javax.imageio.ImageIO;\r\nimport javax.swing.*;\r\nimport java.awt.*;\r\nimport java.awt.event.KeyEvent;\r\nimport java.awt.event.KeyListener;\r\nimport java.awt.image.BufferedImage;\r\nimport java.io.File;\r\nimport java.io.IOException;\r\n//Awaiting for g.artop explanation\r\npublic class Avatar2 extends JFrame implements KeyListener {\r\n    private int x=100;\r\n    private int y=100;\r\n    private int speed= 4;\r\n    BufferedImage image;\r\n    private String direction = \"down\";\r\n    private BufferedImage[] up=new BufferedImage[9];\r\n    private BufferedImage[] down=new BufferedImage[9];\r\n    private BufferedImage[] right=new BufferedImage[9];\r\n    private BufferedImage[] left=new BufferedImage[9];\r\n\r\n    public void getImage(){\r\n        try{\r\n            setMovement(up,\"thiseaswalkingup\");\r\n            setMovement(down,\"thiseaswalkingdown\");\r\n            setMovement(right,\"thiseaswalkingright\");\r\n            setMovement(left,\"thiseaswalkingleft\");\r\n        }catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n    JLabel label;\r\n\r\n    public void setMovement(BufferedImage[] bufferedImages,String move) throws IOException {\r\n        for(int i=0;i<bufferedImages.length;i++){\r\n            bufferedImages[i]=ImageIO.read(new File(String.format(\"src/main/resources/thiseas2/%s%d.png\",move,i+1)));\r\n        }\r\n    }\r\n\r\n    public Avatar2()  {\r\n        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n        this.setSize(500,500);\r\n        this.setLayout(null);\r\n        this.addKeyListener(this);\r\n        this.getContentPane().setBackground(Color.black);\r\n        this.setVisible(true);\r\n        getImage();\r\n    }\r\n\r\n    @Override\r\n    public void keyTyped(KeyEvent e) {\r\n        switch (e.getKeyChar()){\r\n            case 'a':\r\n                direction=\"left\";\r\n                x-=speed;\r\n                break;\r\n            case 'w':\r\n                direction=\"up\";\r\n                y-=speed;\r\n                break;\r\n            case 'd':\r\n                direction=\"right\";\r\n                x+=speed;\r\n                break;\r\n            case 's':\r\n                direction=\"down\";\r\n                y+=speed;\r\n                break;\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public void keyPressed(KeyEvent e) {\r\n    }\r\n\r\n    @Override\r\n    public void keyReleased(KeyEvent e) {\r\n        System.out.println(\"you released char\"+ e.getKeyChar());\r\n    }\r\n\r\n\r\n    public void draw(Graphics2D g){\r\n        super.paint(g);\r\n        BufferedImage image = null;\r\n\r\n        Graphics2D g2D= (Graphics2D) g;\r\n        switch (direction){\r\n            case \"up\":\r\n                image=up[0];\r\n                break;\r\n            case \"down\":\r\n                image=down[0];\r\n                break;\r\n            case \"right\":\r\n                image=right[0];\r\n                break;\r\n            case \"left\":\r\n                image=left[0];\r\n                break;\r\n        }\r\n        g2D.drawImage(image,x,y,64,65,null);\r\n        g2D.drawImage(up[0],10,10,null );\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/test/Avatar2.java b/src/main/java/test/Avatar2.java
+--- a/src/main/java/test/Avatar2.java	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/src/main/java/test/Avatar2.java	(date 1637841919705)
+@@ -4,7 +4,6 @@
+ import java.awt.*;
+ import java.awt.event.KeyEvent;
+ import java.awt.event.KeyListener;
+-import java.awt.image.BufferedImage;
+ import java.io.File;
+ import java.io.IOException;
+ //Awaiting for g.artop explanation
+@@ -12,13 +11,14 @@
+     private int x=100;
+     private int y=100;
+     private int speed= 4;
+-    BufferedImage image;
++    Image image;
+     private String direction = "down";
+-    private BufferedImage[] up=new BufferedImage[9];
+-    private BufferedImage[] down=new BufferedImage[9];
+-    private BufferedImage[] right=new BufferedImage[9];
+-    private BufferedImage[] left=new BufferedImage[9];
++    private Image[] up=new Image[9];
++    private Image[] down=new Image[9];
++    private Image[] right=new Image[9];
++    private Image[] left=new Image[9];
+ 
++    private int c1=0,c2=0,c3=0,c4=0;
+     public void getImage(){
+         try{
+             setMovement(up,"thiseaswalkingup");
+@@ -31,10 +31,9 @@
+     }
+     JLabel label;
+ 
+-    public void setMovement(BufferedImage[] bufferedImages,String move) throws IOException {
+-        for(int i=0;i<bufferedImages.length;i++){
+-            bufferedImages[i]=ImageIO.read(new File(String.format("src/main/resources/thiseas2/%s%d.png",move,i+1)));
+-        }
++    public void setMovement(Image[] images,String move) throws IOException {
++        for(int i=0;i<images.length;i++)
++            images[i]=ImageIO.read(new File(String.format("src/main/resources/thiseas2/%s%d.png",move,i+1)));
+     }
+ 
+     public Avatar2()  {
+@@ -44,33 +43,59 @@
+         this.addKeyListener(this);
+         this.getContentPane().setBackground(Color.black);
+         this.setVisible(true);
++        this.setBackground(Color.white);
+         getImage();
+     }
+ 
+     @Override
+-    public void keyTyped(KeyEvent e) {
++    public void keyPressed(KeyEvent e) {
+         switch (e.getKeyChar()){
+             case 'a':
+-                direction="left";
++                c1 = c1 + 1;
++                if(c1>9) {
++                    c1 = 0;
++                    break;
++                }
++                image=left[c1-1];
+                 x-=speed;
++                //repaint();
+                 break;
+             case 'w':
+-                direction="up";
++                c2 = c2 + 1;
++                if(c2>9) {
++                    c2 = 0;
++                    break;
++                }
++                image=up[c2-1];
+                 y-=speed;
++                //repaint();
+                 break;
+             case 'd':
+-                direction="right";
++                c3 = c3 + 1;
++                if(c3>9) {
++                    c3 = 0;
++                    break;
++                }
++                image=right[c3-1];
+                 x+=speed;
++                //repaint();
+                 break;
+             case 's':
+-                direction="down";
++                c4 = c4 + 1;
++                if(c4>9) {
++                    c4 = 0;
++                    break;
++                }
++                image=down[c4-1];
+                 y+=speed;
++                //repaint();
+                 break;
+         }
++        repaint();
+     }
+ 
+     @Override
+-    public void keyPressed(KeyEvent e) {
++    public void keyTyped(KeyEvent e) {
+     }
+ 
+     @Override
+@@ -78,27 +103,54 @@
+         System.out.println("you released char"+ e.getKeyChar());
+     }
+ 
++    public void paint(Graphics g){
++        super.paint(g);
++
++        Graphics2D g2D= (Graphics2D) g;
+ 
+-    public void draw(Graphics2D g){
++        g2D.drawImage(image,x,y,null);
++    }
++
++
++    /*public void draw(Graphics g){
++        Image image = null;
+         super.paint(g);
+-        BufferedImage image = null;
+-
+         Graphics2D g2D= (Graphics2D) g;
+         switch (direction){
+             case "up":
+-                image=up[0];
++                c1 = c1 + 1;
++                if(c1>9) {
++                    c1 = 0;
++                    break;
++                }
++                image=up[c1-1];
+                 break;
+             case "down":
+-                image=down[0];
++                c2 = c2 + 1;
++                if(c2>9) {
++                    c2 = 0;
++                    break;
++                }
++                image=down[c2-1];
+                 break;
+             case "right":
+-                image=right[0];
++                c3 = c3 + 1;
++                if(c3>9) {
++                    c3 = 0;
++                    break;
++                }
++                image=right[c3-1];
+                 break;
+             case "left":
+-                image=left[0];
++                c4 = c4 + 1;
++                if(c4>9) {
++                    c4 = 0;
++                    break;
++                }
++                image=left[c4-1];
+                 break;
+         }
+         g2D.drawImage(image,x,y,64,65,null);
+         g2D.drawImage(up[0],10,10,null );
+-    }
++    }*/
+ }
+Index: target/classes/Easy Answers.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>A\r\nB\r\nC\r\nC\r\nB\r\nB\r\nB\r\nB\r\nD\r\nA\r\nA\r\nD\r\nB\r\nC\r\nD\r\nA\r\nA\r\nC\r\nD\r\nA\r\nA\r\nC\r\nC\r\nB\r\nA\r\nC\r\nA\r\nD\r\nC\r\nC\r\nD\r\nA\r\nA\r\nA\r\nC\r\nD\r\nB\r\nA\r\nD\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/Easy Answers.txt b/target/classes/Easy Answers.txt
+--- a/target/classes/Easy Answers.txt	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/target/classes/Easy Answers.txt	(date 1637797930455)
+@@ -36,5 +36,4 @@
+ D
+ B
+ A
+-D
+-
++D
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Palette2\">\r\n    <group name=\"Swing\">\r\n      <item class=\"com.intellij.uiDesigner.HSpacer\" tooltip-text=\"Horizontal Spacer\" icon=\"/com/intellij/uiDesigner/icons/hspacer.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"1\" hsize-policy=\"6\" anchor=\"0\" fill=\"1\" />\r\n      </item>\r\n      <item class=\"com.intellij.uiDesigner.VSpacer\" tooltip-text=\"Vertical Spacer\" icon=\"/com/intellij/uiDesigner/icons/vspacer.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"1\" anchor=\"0\" fill=\"2\" />\r\n      </item>\r\n      <item class=\"javax.swing.JPanel\" icon=\"/com/intellij/uiDesigner/icons/panel.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"3\" hsize-policy=\"3\" anchor=\"0\" fill=\"3\" />\r\n      </item>\r\n      <item class=\"javax.swing.JScrollPane\" icon=\"/com/intellij/uiDesigner/icons/scrollPane.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"7\" hsize-policy=\"7\" anchor=\"0\" fill=\"3\" />\r\n      </item>\r\n      <item class=\"javax.swing.JButton\" icon=\"/com/intellij/uiDesigner/icons/button.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"3\" anchor=\"0\" fill=\"1\" />\r\n        <initial-values>\r\n          <property name=\"text\" value=\"Button\" />\r\n        </initial-values>\r\n      </item>\r\n      <item class=\"javax.swing.JRadioButton\" icon=\"/com/intellij/uiDesigner/icons/radioButton.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"3\" anchor=\"8\" fill=\"0\" />\r\n        <initial-values>\r\n          <property name=\"text\" value=\"RadioButton\" />\r\n        </initial-values>\r\n      </item>\r\n      <item class=\"javax.swing.JCheckBox\" icon=\"/com/intellij/uiDesigner/icons/checkBox.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"3\" anchor=\"8\" fill=\"0\" />\r\n        <initial-values>\r\n          <property name=\"text\" value=\"CheckBox\" />\r\n        </initial-values>\r\n      </item>\r\n      <item class=\"javax.swing.JLabel\" icon=\"/com/intellij/uiDesigner/icons/label.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"0\" anchor=\"8\" fill=\"0\" />\r\n        <initial-values>\r\n          <property name=\"text\" value=\"Label\" />\r\n        </initial-values>\r\n      </item>\r\n      <item class=\"javax.swing.JTextField\" icon=\"/com/intellij/uiDesigner/icons/textField.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"6\" anchor=\"8\" fill=\"1\">\r\n          <preferred-size width=\"150\" height=\"-1\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JPasswordField\" icon=\"/com/intellij/uiDesigner/icons/passwordField.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"6\" anchor=\"8\" fill=\"1\">\r\n          <preferred-size width=\"150\" height=\"-1\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JFormattedTextField\" icon=\"/com/intellij/uiDesigner/icons/formattedTextField.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"6\" anchor=\"8\" fill=\"1\">\r\n          <preferred-size width=\"150\" height=\"-1\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JTextArea\" icon=\"/com/intellij/uiDesigner/icons/textArea.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"6\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"150\" height=\"50\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JTextPane\" icon=\"/com/intellij/uiDesigner/icons/textPane.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"6\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"150\" height=\"50\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JEditorPane\" icon=\"/com/intellij/uiDesigner/icons/editorPane.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"6\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"150\" height=\"50\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JComboBox\" icon=\"/com/intellij/uiDesigner/icons/comboBox.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"2\" anchor=\"8\" fill=\"1\" />\r\n      </item>\r\n      <item class=\"javax.swing.JTable\" icon=\"/com/intellij/uiDesigner/icons/table.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"6\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"150\" height=\"50\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JList\" icon=\"/com/intellij/uiDesigner/icons/list.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"2\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"150\" height=\"50\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JTree\" icon=\"/com/intellij/uiDesigner/icons/tree.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"6\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"150\" height=\"50\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JTabbedPane\" icon=\"/com/intellij/uiDesigner/icons/tabbedPane.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"3\" hsize-policy=\"3\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"200\" height=\"200\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JSplitPane\" icon=\"/com/intellij/uiDesigner/icons/splitPane.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"3\" hsize-policy=\"3\" anchor=\"0\" fill=\"3\">\r\n          <preferred-size width=\"200\" height=\"200\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JSpinner\" icon=\"/com/intellij/uiDesigner/icons/spinner.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"true\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"6\" anchor=\"8\" fill=\"1\" />\r\n      </item>\r\n      <item class=\"javax.swing.JSlider\" icon=\"/com/intellij/uiDesigner/icons/slider.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"6\" anchor=\"8\" fill=\"1\" />\r\n      </item>\r\n      <item class=\"javax.swing.JSeparator\" icon=\"/com/intellij/uiDesigner/icons/separator.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"6\" anchor=\"0\" fill=\"3\" />\r\n      </item>\r\n      <item class=\"javax.swing.JProgressBar\" icon=\"/com/intellij/uiDesigner/icons/progressbar.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"6\" anchor=\"0\" fill=\"1\" />\r\n      </item>\r\n      <item class=\"javax.swing.JToolBar\" icon=\"/com/intellij/uiDesigner/icons/toolbar.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"6\" anchor=\"0\" fill=\"1\">\r\n          <preferred-size width=\"-1\" height=\"20\" />\r\n        </default-constraints>\r\n      </item>\r\n      <item class=\"javax.swing.JToolBar$Separator\" icon=\"/com/intellij/uiDesigner/icons/toolbarSeparator.png\" removable=\"false\" auto-create-binding=\"false\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"0\" hsize-policy=\"0\" anchor=\"0\" fill=\"1\" />\r\n      </item>\r\n      <item class=\"javax.swing.JScrollBar\" icon=\"/com/intellij/uiDesigner/icons/scrollbar.png\" removable=\"false\" auto-create-binding=\"true\" can-attach-label=\"false\">\r\n        <default-constraints vsize-policy=\"6\" hsize-policy=\"0\" anchor=\"0\" fill=\"2\" />\r\n      </item>\r\n    </group>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+--- a/.idea/uiDesigner.xml	(revision c1d722b43290e498529c8c40f799444fc854d7b0)
++++ b/.idea/uiDesigner.xml	(date 1637797848347)
+@@ -121,4 +121,7 @@
+       </item>
+     </group>
+   </component>
++  <component name="uidesigner-configuration">
++    <option name="DEFAULT_LAYOUT_MANAGER" value="CardLayout" />
++  </component>
+ </project>
+\ No newline at end of file
+diff --git a/src/main/resources/EasyQuestions.txt b/src/main/resources/EasyQuestions.txt
+deleted file mode 100644
+diff --git a/target/classes/EasyQuestions.txt b/target/classes/EasyQuestions.txt
+deleted file mode 100644
