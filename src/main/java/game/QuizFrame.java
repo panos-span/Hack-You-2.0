@@ -86,7 +86,7 @@ public class QuizFrame implements ActionListener {
                 return;
             }
             int time = radioButtons[3].isSelected() ? LabyrinthFrame.for_correct : LabyrinthFrame.for_wrong ;
-            LabyrinthFrame.updateBar(time);
+            //gp.lb.updateBar(time);
             frame.dispose();
         }
     }

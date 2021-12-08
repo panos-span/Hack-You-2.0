@@ -1,6 +1,6 @@
 package highscoreTest;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 import java.io.*;
 import java.util.ArrayList;
 
@@ -11,20 +11,36 @@ public class HighScore {
 
     protected static ArrayList<PlayerInfo> playerInfo = new ArrayList<>();
 
-    public HighScore(String name,int score) {
+    /**
+     * Κατασκευαστής ο οποίος αρχικά κάνει writable το αρχείο των highscores και μετά την επεξεργασία
+     * του αρχείου το κάνει read-only ώστε να μην επιτρέπεται η κακόβουλη αλλαγή του
+     *
+     * @param name  : όνομα παίκτη
+     * @param score : βαθμολογία παίκτη
+     */
+    public HighScore(String name, int score) {
         try {
+            setFile(true);
             load();
-            boolean checkForHigh = HighScore.checkForNewRegister(name,score);
-            sort();
-            if (checkForHigh)
-                JOptionPane.showMessageDialog(null,"You managed to set a new HighScore to the highscore table","Congratulations",JOptionPane.INFORMATION_MESSAGE);
+            boolean checkForNewHigh = checkForNewRegister(name, score);
+            if (checkForNewHigh) {
+                sort();
+                JOptionPane.showMessageDialog(null, "You managed to set a new HighScore to the highscore table", "Congratulations", JOptionPane.INFORMATION_MESSAGE);
+            }
+            setFile(false);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
     }
 
-    public static boolean checkForNewRegister(String name, int score) throws IOException {
+    private void setFile(boolean status) {
+        File file = new File("src/main/resources/HighScore.txt");
+        //making the file as read/read-only using setWritable(status) method
+        file.setWritable(status);
+    }
+
+    private boolean checkForNewRegister(String name, int score) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/HighScore.txt"));
         int lines = 0;
         while (reader.readLine() != null) lines++;
@@ -46,18 +62,16 @@ public class HighScore {
 
     }
 
-    public static void appendScore(String name, int score) {
+    private void appendScore(String name, int score) {
         FileWriter fileWriter = null;
-
         BufferedWriter bufferedWriter = null;
-
         PrintWriter printWriter = null;
 
         try {
             fileWriter = new FileWriter("src/main/resources/HighScore.txt", true);
             bufferedWriter = new BufferedWriter(fileWriter);
             printWriter = new PrintWriter(bufferedWriter);
-            //Writing text to file
+            //Writing text to file με συγκεκριμένη μορφοποίηση
             printWriter.print(String.format("%s %d", name, score));
         } catch (IOException e) {
             e.printStackTrace();
@@ -74,13 +88,8 @@ public class HighScore {
     }
 
 
-    public static void load() throws IOException {
-        //Creating BufferedReader object to read the input text file
-
+    private void load() throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/HighScore.txt"));
-
-        //Reading Players records one by one
-
         String currentLine = reader.readLine();
 
         while (currentLine != null) {
@@ -98,17 +107,13 @@ public class HighScore {
 
     }
 
-    public static void sort() throws IOException {
-
+    private void sort() throws IOException {
         //Sorting ArrayList playerInfo based on scores
-
         playerInfo.sort(new scoresCompare());
-
-        //Creating BufferedWriter object to write into output text file
-
         BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/HighScore.txt"));
 
         int counter = 0;
+        //Ξαναδημιουργώ το αρχείο βάζοντας τα playerInfo σε σωστή σειρά και να είναι μέχρι 10
         for (PlayerInfo player : playerInfo) {
             if (counter == 10) {
                 playerInfo.remove(counter);
@@ -123,7 +128,6 @@ public class HighScore {
 
         }
 
-        //Closing the resources
         writer.close();
     }
 

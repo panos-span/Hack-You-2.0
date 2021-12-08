@@ -4,13 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
-
-/*
- * WARNING
- *  TODO Να φτιάξουμε νέα κλάση για το frame του παιχνιδιού, για το panel που θα παίζει ο λαβύρινθος
- */
-
 
 /**
  * @author Team Hack-You
@@ -18,20 +11,15 @@ import java.io.FileNotFoundException;
  */
 public class LabyrinthFrame implements ActionListener {
 
-    /**
-     * ProgressBar
-     */
-    //Δηλώνω static το frame έτσι ώστε να μπορεί να ανοιγοκλείνει από τα Options
+    //Δηλώνω static το frame έτσι ώστε να μπορεί να ανανεώνεται από τα Options
     protected static JFrame frame;
-    static JProgressBar bar;
-    GamePanel gamePanel = new GamePanel();
+    private static JProgressBar bar;
+    private GamePanel gamePanel = new GamePanel();
 
     JButton start = new JButton("start");
-    JButton testQuestionFrame = new JButton("try me");
 
     //Μεταβλητές χρήσιμες για τη λειτουργία του progressBar
-    protected static boolean go = true; // Για το αν συνεχίζει το παιχνίδι ή βρίσκεται σε pause
-    private int pause_count = 0; //Για το πόσες φορές έχει πατήσει το spacebar
+    private static boolean go = true; // Για το αν συνεχίζει το παιχνίδι ή βρίσκεται σε pause
     protected static boolean hasStarted = false; // Για το αν έχει αρχίσει το παιχνίδι
 
     //Μεταβλητές για πόσο χρόνο ο παίκτης θα κερδίζει χάνει ανάλογα με την απάντησή του στις ερωτήσεις
@@ -46,23 +34,28 @@ public class LabyrinthFrame implements ActionListener {
     //--------------------------------------------------------------------------------------//
 
     protected static void setLabyrinth() {
+        //String name;
         switch (Levels.difficulty) {
             case "Easy":
                 time = 200;
                 for_correct = 5;
                 for_wrong = -2;
+                //name = "E1";
                 break;
             case "Medium":
                 time = 150;
                 for_correct = 5;
                 for_wrong = -3;
+                //name = "M1";
                 break;
             default:
                 time = 10;
                 for_correct = 3;
                 for_wrong = -5;
+                //name = "H1";
                 break;
         }
+        //return String.format("/maps/%s.txt",name);
 
     }
 
@@ -70,7 +63,7 @@ public class LabyrinthFrame implements ActionListener {
         frame = new JFrame();
         frame.setTitle("Labyrinth"); //setTitle of frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setResizable(true);
+        frame.setResizable(false);
         frame.setSize(780, 680);
         frame.setVisible(true);
         frame.setLayout(new BorderLayout());
@@ -91,10 +84,10 @@ public class LabyrinthFrame implements ActionListener {
         bar.setVisible(false);
     }
 
-
     public LabyrinthFrame() {
         createFrame();
         createBar();
+
         setButton(start, 500);
         start.setBackground(Color.green);
         start.setFont(new Font("Calibri", Font.ITALIC, 25));
@@ -102,15 +95,15 @@ public class LabyrinthFrame implements ActionListener {
         frame.add(bar, BorderLayout.NORTH);
         frame.add(start, BorderLayout.SOUTH);
 
-        setButton(testQuestionFrame, 400);
-        testQuestionFrame.setEnabled(false);
         frame.add(gamePanel, BorderLayout.CENTER);
+        gamePanel.setupGame();
 
     }
 
-
     /**
      * Μέθοδος λειτουργίας progressBar
+     *
+     * @param flg : ο χρόνος που θα έχει ο παίκτης
      */
     private static void fill(int flg) {
         int counter = flg;
@@ -131,8 +124,8 @@ public class LabyrinthFrame implements ActionListener {
             counter--;
         }
         bar.setString("Game Over");
-        SwingUtilities.invokeLater(DeathFrame::new);
-        frame.dispose();
+        //SwingUtilities.invokeLater(DeathFrame::new);
+        closeFrame(false);
     }
 
     private void setButton(JButton button, int y) {
@@ -143,17 +136,43 @@ public class LabyrinthFrame implements ActionListener {
         button.addActionListener(this);
     }
 
+    /**
+     * Μέθοδος ανανέωσης progressBar
+     *
+     * @param time : ο χρόνος που προσθαφαιρείται από το χρόνο που απομένει
+     */
     protected static void updateBar(int time) {
         fill_bar = new Thread(() -> fill(bar.getValue() + time));
         fill_bar.start();
     }
 
+    /**
+     * Μέθοδος κλεισίματος παραθύρου παιχνιδιού (διακοπή παιχνιδιού)
+     */
     protected static void closeFrame() {
-        go = false;
+        hasStarted = false;
         frame.dispose();
     }
 
-    public static void stopBar() {
+    /**
+     * Μέθοδος τερματισμού παιχνιδιού
+     * @param hasWon : true σε περίπτωση νίκης, false σε περίπτωση αποτυχίας
+     */
+    protected static void closeFrame(boolean hasWon) {
+        hasStarted = false;
+        if (hasWon) {
+            SwingUtilities.invokeLater(WinFrame::new);
+        } else {
+            SwingUtilities.invokeLater(DeathFrame::new);
+        }
+        frame.dispose();
+
+    }
+
+    /**
+     * Μέθοδος παύσης progressBar
+     */
+    protected static void stopBar() {
         go = false;
     }
 
@@ -167,16 +186,6 @@ public class LabyrinthFrame implements ActionListener {
             hasStarted = true;
             //Για να μπορεί ο παίκτης να αρχίσει να κινείται
             gamePanel.gameState = gamePanel.playState;
-        } else if (e.getSource() == testQuestionFrame) {
-            //Ο χρόνος σταματάει μέχρι να απαντηθεί η ερώτηση
-            go = false;
-            SwingUtilities.invokeLater(() -> {
-                try {
-                    new Quiz(gamePanel);
-                } catch (FileNotFoundException e1) {
-                    e1.printStackTrace();
-                }
-            });
         }
 
     }

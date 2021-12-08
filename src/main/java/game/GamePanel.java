@@ -14,6 +14,12 @@ public class GamePanel extends JPanel implements Runnable {
     final int screenWidth = tileSize * maxScreenCol;
     final int screenHeight = tileSize * maxScreenRow;
 
+    //change to match map size (32, 20)
+    public final int maxWorldCol = 32;
+    public final int maxWorldRow = 20;
+    public final int WorldWidth = tileSize * maxWorldCol;
+    public final int WorldHeight = tileSize * maxWorldRow;
+
     TileManager tileM = new TileManager(this);
     private final int FPS = 60;
 
@@ -21,11 +27,14 @@ public class GamePanel extends JPanel implements Runnable {
     Thread gameThread;
     Player player = new Player(this, keyH);
     public CollisionCheck collisionCheck = new CollisionCheck(this);
+    public SuperObject[] obj = new SuperObject[7];
+    public AssetSetter aSetter = new AssetSetter(this);
 
-    //Κατάσταση παιχνιδιού
+    //Μεταβλητές για την κατάσταση παιχνιδιού
     public int gameState;
     public final int playState = 1;
     public final int pauseState = 2;
+    public final int endState = 3;
 
     public GamePanel() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
@@ -36,7 +45,17 @@ public class GamePanel extends JPanel implements Runnable {
         startGameThread();
     }
 
-    public void startGameThread() {
+    /**
+     * Μέθοδος προετοιμασίας αντικειμένων παιχνιδιού
+     */
+    public void setupGame() {
+        aSetter.setObject();
+    }
+
+    /**
+     * Μέθοδος εκκίνησης παιχνιδιού
+     */
+    private void startGameThread() {
         gameThread = new Thread(this);
         gameThread.start();
         //Για να μην μπορεί να κουνηθεί ο παίκτης πριν πατηθεί το κουμπί start
@@ -44,7 +63,7 @@ public class GamePanel extends JPanel implements Runnable {
     }
 
     /**
-     * Game loop ώστε να τρέχει με 60 fps
+     * Game loop εξατομικευμένο ώστε να τρέχει το παιχνίδι με 60 fps
      */
     @Override
     public void run() {
@@ -62,15 +81,29 @@ public class GamePanel extends JPanel implements Runnable {
             lastTime = currentTime;
             if (delta >= 1) {
                 update();
+                //Τερματισμός παιχνιδιού σε περίπτωση νίκης
+                if (gameState == endState) {
+                    //Για να μην κολλήσει η λειτουργία της μπάρας
+                    LabyrinthFrame.stopBar();
+                    LabyrinthFrame.closeFrame(true);
+                    return;
+                }
                 repaint();
                 delta--;
             }
         }
     }
 
+    /**
+     * Μέθοδος ανανέωσης γραφικών χαρακτήρα
+     */
     public void update() {
-        if (gameState == playState)
+        if (gameState == playState) {
             player.update();
+        } else {
+            //Για να μην κολλάει η κίνηση του παίκτη όταν το παιχνίδι βρίσκεται σε κατάσταση παύσης
+            player.stabilizePlayer();
+        }
     }
 
     public void paintComponent(Graphics g) {
@@ -78,8 +111,14 @@ public class GamePanel extends JPanel implements Runnable {
 
         Graphics2D g2 = (Graphics2D) g;
         tileM.draw(g2);
-        player.draw(g2);
 
+        for (SuperObject superObject : obj) {
+            if (superObject != null)
+                superObject.draw(g2, this);
+
+        }
+
+        player.draw(g2);
         //Για να ζωγραφίσει στην οθόνη τη λέξη ΠΑΥΣΗ σε περίπτωση pause
         if (gameState == pauseState) {
             g2.setFont(g2.getFont().deriveFont(Font.PLAIN, 80F));

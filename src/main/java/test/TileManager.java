@@ -6,6 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+/* θα δω με νωλη καποια πραγματα*/
 
 public class TileManager {
     GamePanel gp;
@@ -17,10 +18,10 @@ public class TileManager {
         this.gp = gp;
 
         tile = new Tile[3];
-        mapTileNum = new int[gp.maxScreenCol][gp.maxScreenRow];
+        mapTileNum = new int[gp.maxWorldCol][gp.maxWorldRow];
 
         getTileImage();
-        loadMap("/maps/map.txt");
+        loadMap("/maps/map2.txt");
     }
 
     public void getTileImage() {
@@ -36,7 +37,7 @@ public class TileManager {
             tile[2] = new Tile();
             tile[2].image = ImageIO.read(getClass().getResourceAsStream("/tiles/question_mark.png"));
 
-        } catch(IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -50,10 +51,10 @@ public class TileManager {
             int col = 0;
             int row = 0;
 
-            while (col < gp.maxScreenCol && row < gp.maxScreenRow) {
+            while (col < gp.maxWorldCol && row < gp.maxWorldRow) {
                 String line = br.readLine();
 
-                while (col < gp.maxScreenCol) {
+                while (col < gp.maxWorldCol) {
 
                     String[] numbers = line.split(" "); //splits the line with spaces
 
@@ -61,14 +62,14 @@ public class TileManager {
                     mapTileNum[col][row] = num; //store the integer
                     col++;
                 }
-                if(col == gp.maxScreenCol) {
+                if (col == gp.maxWorldCol) {
                     col = 0;
                     row++;
                 }
             }
             br.close(); //closing buffered reader
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -76,22 +77,45 @@ public class TileManager {
     //draws the tiles
     public void draw(Graphics2D g2) {
 
-        int col = 0;
-        int row = 0;
-        int x = 0;
-        int y = 0;
-        while (col < gp.maxScreenCol && row < gp.maxScreenRow) {
+        int worldcol = 0;
+        int worldrow = 0;
 
-            int tileNum = mapTileNum[col][row]; // number of tile
-            g2.drawImage(tile[tileNum].image,x,y,gp.tileSize,gp.tileSize,null);
-            col++;
-            x += gp.tileSize;
+        while (worldcol < gp.maxWorldCol && worldrow < gp.maxWorldRow) {
 
-            if (col == gp.maxScreenCol) {
-                col = 0;
-                x = 0;
-                row++;
-                y += gp.tileSize;
+            int tileNum = mapTileNum[worldcol][worldrow]; // number of tile
+
+            int worldX = worldcol * gp.tileSize;
+            int worldY = worldrow * gp.tileSize;
+            int ScreenX = worldX - gp.player.worldx + gp.player.screenX;
+            int ScreenY = worldY - gp.player.worldy + gp.player.screenY;
+            // σταματημος καμερας στο edge
+            if (gp.player.screenX > gp.player.worldx) {
+                ScreenX = worldX;
+            }
+            if (gp.player.screenY > gp.player.worldy) {
+                ScreenY = worldY;
+            }
+            int rightoffsetvalue = gp.screenWidth - gp.player.screenX;
+
+            if (rightoffsetvalue > gp.WorldWidth - gp.player.worldx) {
+                ScreenX = gp.screenWidth - (gp.WorldWidth - worldX);
+            }
+
+            int bottomoffsetvalue=gp.screenHeight-gp.player.screenY;
+
+            if (bottomoffsetvalue > gp.WorldHeight - gp.player.worldy) {
+                ScreenY = gp.screenHeight - (gp.WorldHeight - worldY);
+            }
+
+
+            g2.drawImage(tile[tileNum].image, ScreenX, ScreenY, gp.tileSize, gp.tileSize, null);
+            worldcol++;
+
+
+            if (worldcol == gp.maxWorldCol) {
+                worldcol = 0;
+                worldrow++;
+
             }
         }
 

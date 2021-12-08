@@ -10,9 +10,14 @@ public class Player extends Entity {
     GamePanel gp;
     KeyHandler keyH;
 
+    public final int screenX;
+    public final int screenY;
+
     public Player(GamePanel gp, KeyHandler keyH) {
         this.gp = gp;
         this.keyH = keyH;
+        screenX = gp.screenWidth / 2 - (gp.tileSize / 2);
+        screenY = gp.screenHeight / 2 - (gp.tileSize / 2);
 
         solidArea = new Rectangle();
         solidArea.x = 8;
@@ -41,8 +46,8 @@ public class Player extends Entity {
     }
 
     public void setDefaultValues() {
-        x = 50;
-        y = 500;
+        worldx = 60;
+        worldy = 650;
         speed = 2;
         direction = "up";
     }
@@ -51,12 +56,16 @@ public class Player extends Entity {
         if (keyH.upPressed || keyH.downPressed || keyH.rightPressed || keyH.leftPressed) {
             if (keyH.upPressed) {
                 direction = "up";
+
             } else if (keyH.downPressed) {
                 direction = "down";
+
             } else if (keyH.leftPressed) {
                 direction = "left";
+
             } else {
                 direction = "right";
+
             }
 
             collisionOn = false;
@@ -66,24 +75,22 @@ public class Player extends Entity {
             if (!collisionOn) {
                 switch (direction) {
                     case "up":
-                        y -= speed;
+                        worldy -= speed;
                         break;
                     case "down":
-                        //Για να μην μπορεί να βγει εκτός παιχνιδιού
-                        if (y < 520)
-                            y += speed;
+                        worldy += speed;
                         break;
                     case "left":
-                        x -= speed;
+                        worldx -= speed;
                         break;
                     case "right":
-                        x += speed;
+                        worldx += speed;
                         break;
                 }
             }
 
             spriteCounter++;
-            if (spriteCounter > 6) {
+            if (spriteCounter > 5) {
                 if (spriteNum < 9) {
                     spriteNum++;
                 } else {
@@ -111,6 +118,26 @@ public class Player extends Entity {
                 image = right[spriteNum - 1];
                 break;
         }
-        g2.drawImage(image, x, y, gp.tileSize, gp.tileSize , null);
+        int x=screenX;
+        int y=screenY;
+        if( screenX>worldx){
+            x=worldx;
+        }
+        if (screenY>worldy){
+            y=worldy;
+        }
+        int rightoffsetvalue = gp.screenWidth - screenX;
+
+        if (rightoffsetvalue > gp.WorldWidth - worldx) {
+            x = gp.screenWidth - (gp.WorldWidth - worldx);
+        }
+
+        int bottomoffsetvalue=gp.screenHeight-screenY;
+
+        if (bottomoffsetvalue > gp.WorldHeight - worldy) {
+            y = gp.screenHeight - (gp.WorldHeight - worldy);
+        }
+
+        g2.drawImage(image, x, y, gp.tileSize, gp.tileSize, null);
     }
 }

@@ -1,38 +1,52 @@
 package game;
-import javax.swing.*;
-import java.awt.*;
+
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  * Κλάση για περιγραφή οδηγιών
  *
  * @author Team Hack-You
  */
+public class Guide extends UtilityFrame{
 
-public class Guide {
+    Menu menu;
+    Options options;
 
-    JFrame frame;
-    //-------test changes------//
-    JLabel label = new JLabel();
-    //-------test changes end------//
+    /**
+     * Κατασκευαστής που καλείται όταν το guide ανοίγει από το παράθυρο options
+     * @param options : Το παράθυρο options από το οποίο κλήθηκε ο guide
+     */
+    public Guide(Options options) {
+        super("Guide",800,800);
+        this.options = options;
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                options.showGuide.setEnabled(true);
+                Options.guideOpen = false;
+                frame.dispose();
+            }
+        });
+        frame.add(backgroundLabel);
 
-    public Guide() {
-        // Εξατομίκευση παραθύρου
-        frame = new JFrame(); //create frame
-        frame.setTitle("Guide"); //setTitle of frame
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frame.setResizable(false);
-        frame.setSize(600, 600);
-        frame.setVisible(true);
-        frame.setLayout(null);
-        frame.setIconImage(Main.icon.getImage());
-        frame.setLocationRelativeTo(null);
-        //-------test changes------//
-        //Set Scaled Background
-        FrameSetter.scaleBackground(label,600,600);
-        frame.add(label);
+    }
 
-        //-------test changes end------//
-
+    /**
+     * Κατασκευαστής που καλείται όταν το guide ανοίγει από το παράθυρο menu
+     * @param menu : Το παράθυρο menu από το οποίο κλήθηκε ο guide
+     */
+    public Guide(Menu menu) {
+        super("Guide",800,800);
+        this.menu = menu;
+        super.frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                menu.how2play.setEnabled(true);
+                Guide.super.frame.dispose();
+            }
+        });
+        frame.add(backgroundLabel);
     }
 
 }
