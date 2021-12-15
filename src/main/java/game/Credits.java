@@ -8,12 +8,12 @@ import java.awt.event.WindowEvent;
  *
  * @author Team Hack-You
  */
-public class Credits extends UtilityFrame{
+public class Credits extends UtilityFrame {
 
     Menu menu;
 
     public Credits(Menu menu) {
-        super("Credits",800,800);
+        super("Credits", 800, 800);
         this.menu = menu;
         super.frame.addWindowListener(new WindowAdapter() {
             @Override

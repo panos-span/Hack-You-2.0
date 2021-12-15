@@ -6,37 +6,41 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Κλάση για StartMenu
+ * Παράθυρο για StartMenu
  *
  * @author Team Hack-You
  */
 public class Menu implements ActionListener {
 
-    /**
+    /*
      * Initialize μεταβλητών διαστάσεων
      */
     private final int X = 380;
-    private final int Y = 200;
+    private final int Y = 300;
     private final int WIDTH = 200;
     private final int HEIGHT = 50;
     private int counter = 0;
     private ImageIcon icon3;
+    private final ImageIcon title = new ImageIcon("src/main/resources/Title.png");
+
+    static Sound music = new Sound();
 
     JFrame frame = new JFrame();
     JButton start = new JButton("Start Game");
     JButton how2play = new JButton("How to Play");
     JButton credits = new JButton("Show Credits");
     JButton description = new JButton("Game Description");
+    JButton musicOn_Off = new JButton(String.format("Sound %s", ButtonSetter.playSound ? "off" : "on"));
+    private int times = 0;
     JLabel label = new JLabel();
     JLabel backgroundLabel = new JLabel();
 
     //Αρχικοποίηση εξαρτημένων παραθύρων
-    Guide guide;
-    Credits creditsFrame;
-    Description descriptionFrame;
-    UtilityFrame[] utilityFrames = {guide, creditsFrame, descriptionFrame};
+    UtilityFrame[] utilityFrames = new UtilityFrame[3];
 
     public Menu() {
+        if (ButtonSetter.playSound)
+            playMusic();
         // Εξατομίκευση παραθύρου
         frame.setTitle("Menu"); //setTitle of frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -52,15 +56,21 @@ public class Menu implements ActionListener {
         setButton(how2play, Y + 100);
         setButton(credits, Y + 200);
         setButton(description, Y + 300);
+        setButton(musicOn_Off, Y + 400);
+        //ButtonSetter.setButton(musicOn_Off, 0, 0, 50, 50, "Calibri", 10, this, 2);
 
         frame.add(start);
         frame.add(how2play);
         frame.add(credits);
         frame.add(description);
+        frame.add(musicOn_Off);
+
+        FrameSetter.scaleImage(label, 500, 300, title);
         frame.add(label);
         //-------test changes------//
-        backgroundLabel.setIcon(Main.background);
-        backgroundLabel.setBounds(0, 0, 1000, 1000);
+        FrameSetter.scaleBackground(backgroundLabel, 970, 850);
+        /*backgroundLabel.setIcon(Main.background);
+        backgroundLabel.setBounds(0, 0, 1000, 1000);*/
         frame.add(backgroundLabel);
         //-------test changes end------//
     }
@@ -91,6 +101,18 @@ public class Menu implements ActionListener {
      */
     @Override
     public void actionPerformed(ActionEvent e) {
+        ButtonSetter.playSE();
+        if (e.getSource() == musicOn_Off) {
+            ButtonSetter.setPlaySound(!ButtonSetter.playSound);
+            if (ButtonSetter.playSound) {
+                playMusic();
+            } else {
+                stopMusic();
+            }
+            musicOn_Off.setText(String.format("Sound %s", ButtonSetter.playSound ? "off" : "on"));
+            return;
+        }
+
         if (e.getSource() == start) {
             new Levels();
             frame.dispose();
@@ -112,4 +134,20 @@ public class Menu implements ActionListener {
             utilityFrames[2] = new Description(this);
         }
     }
+
+    public static void continuePlaying() {
+        music.play();
+    }
+
+    public static void playMusic() {
+        music.setFile(0);
+        music.play();
+        music.loop();
+    }
+
+    public static void stopMusic() {
+        music.stop();
+    }
+
+
 }

@@ -2,7 +2,11 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.LinkedList;
 
+/**
+ * Panel όπου γίνεται η αναπαράσταση του παιχνιδιού
+ */
 public class GamePanel extends JPanel implements Runnable {
 
     final int originalTileSize = 16;
@@ -14,29 +18,33 @@ public class GamePanel extends JPanel implements Runnable {
     final int screenWidth = tileSize * maxScreenCol;
     final int screenHeight = tileSize * maxScreenRow;
 
-    //change to match map size (32, 20)
-    public final int maxWorldCol = 32;
-    public final int maxWorldRow = 20;
+    //Καθορισμός των διαστάσεων του κόσμου του λαβυρίνθου ανάλογα με την επιλεγμένη δυσκολία
+    public final int maxWorldCol = 28
+            + (Levels.difficulty.equals("Medium") ? 6 : 0)
+            + (Levels.difficulty.equals("Hard") ? 12 : 0);
+    public final int maxWorldRow = maxWorldCol;
     public final int WorldWidth = tileSize * maxWorldCol;
     public final int WorldHeight = tileSize * maxWorldRow;
 
     TileManager tileM = new TileManager(this);
-    private final int FPS = 60;
 
     KeyHandler keyH = new KeyHandler(this);
     Thread gameThread;
     Player player = new Player(this, keyH);
     public CollisionCheck collisionCheck = new CollisionCheck(this);
-    public SuperObject[] obj = new SuperObject[7];
+    public LinkedList<SuperObject> obj = new LinkedList<>();
     public AssetSetter aSetter = new AssetSetter(this);
 
+    public LabyrinthFrame labyrinthFrame;
     //Μεταβλητές για την κατάσταση παιχνιδιού
     public int gameState;
     public final int playState = 1;
     public final int pauseState = 2;
     public final int endState = 3;
 
-    public GamePanel() {
+
+    public GamePanel(LabyrinthFrame labyrinthFrame) {
+        this.labyrinthFrame = labyrinthFrame;
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
         this.setBackground(Color.black);
         this.setDoubleBuffered(true);
@@ -51,6 +59,7 @@ public class GamePanel extends JPanel implements Runnable {
     public void setupGame() {
         aSetter.setObject();
     }
+
 
     /**
      * Μέθοδος εκκίνησης παιχνιδιού
@@ -68,7 +77,8 @@ public class GamePanel extends JPanel implements Runnable {
     @Override
     public void run() {
 
-        double drawInterval = 1000000000 / FPS;
+        int FPS = 60;
+        double drawInterval = (double) 1000000000 / FPS;
         double delta = 0;
         long lastTime = System.nanoTime();
         long currentTime;
@@ -83,14 +93,36 @@ public class GamePanel extends JPanel implements Runnable {
                 update();
                 //Τερματισμός παιχνιδιού σε περίπτωση νίκης
                 if (gameState == endState) {
+                    Menu.stopMusic();
                     //Για να μην κολλήσει η λειτουργία της μπάρας
-                    LabyrinthFrame.stopBar();
-                    LabyrinthFrame.closeFrame(true);
+                    labyrinthFrame.closeFrame(true);
+                    return;
+                    //Ενέργεια που εκτελείται όταν χάνει ο παίκτης
+                } else if (labyrinthFrame.hasLost) {
+                    for (int times = 0; times < 6; times++) {
+                        if (times == 0)
+                            Menu.stopMusic();
+                        //Για να απεικονιστεί φανερά ο "θάνατος" του παίκτη
+                        sleep(1);
+                        update();
+                        repaint();
+                    }
+                    sleep(1);
+                    labyrinthFrame.closeFrame(false);
                     return;
                 }
                 repaint();
                 delta--;
+
             }
+        }
+    }
+
+    public void sleep(double seconds) {
+        try {
+            Thread.sleep((long) (1000L * seconds));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 
@@ -115,7 +147,6 @@ public class GamePanel extends JPanel implements Runnable {
         for (SuperObject superObject : obj) {
             if (superObject != null)
                 superObject.draw(g2, this);
-
         }
 
         player.draw(g2);

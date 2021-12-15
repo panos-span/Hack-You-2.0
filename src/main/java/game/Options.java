@@ -6,6 +6,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * Παράθυρο επιλόγων που προκαλεί παύση του παιχνιδιού όταν εμφανίζεται
+ */
 public class Options implements ActionListener {
 
     public GamePanel gp;
@@ -16,8 +19,7 @@ public class Options implements ActionListener {
     JButton restart = new JButton("restart");
     JButton end = new JButton("exit");
     protected static boolean isActive = false;
-    protected static boolean guideOpen = false;
-    static UtilityFrame guide;
+    static Guide guide;
 
     public Options(GamePanel gp) {
         isActive = true;
@@ -48,33 +50,45 @@ public class Options implements ActionListener {
         frame.add(backgroundLabel);
     }
 
+    /**
+     * Έλεγχος για τον αν υπάρχει ανοιχτό παράθυρο guide
+     * Σε περίπτωση που υπάρχει το παράθυρο αυτό κλείνει
+     */
+    private void check() {
+        if (guide == null)
+            return;
+        if (guide.getIsOpen())
+            guide.closeFrame();
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
+        ButtonSetter.playSE();
         if (e.getSource() == returnBack) {
+            check();
             frame.dispose();
         } else if (e.getSource() == showGuide) {
             guide = new Guide(this);
             showGuide.setEnabled(false);
             return;
         } else if (e.getSource() == restart) {
-            LabyrinthFrame.closeFrame();
-            if (guide != null) {
-                if (guide.getIsOpen())
-                    guide.closeFrame();
-            }
+            gp.labyrinthFrame.closeFrame();
+            check();
             SwingUtilities.invokeLater(LabyrinthFrame::new);
             frame.dispose();
         } else {
             System.exit(1);
         }
         //Για να μην κολλήσει το progressBar
-        if (LabyrinthFrame.hasStarted) {
+        if (gp.labyrinthFrame.hasStarted) {
             gp.gameState = gp.playState;
-            LabyrinthFrame.updateBar(0);
+            gp.labyrinthFrame.updateBar(0);
         }
         // Ενημερώνουμε το gamepanel για το κλείσιμο του παραθύρου
         isActive = false;
         KeyHandler.escPressed = false;
+        if(ButtonSetter.playSound)
+            Menu.continuePlaying();
 
     }
 }

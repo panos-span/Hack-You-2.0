@@ -6,8 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.security.SecureRandom;
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -15,13 +15,14 @@ import java.util.Scanner;
  *
  * @author Team Hack-You
  */
+//TODO(Mallikoko): Φτιάξε καλύτερα την εμφάνιση του παραθύρου !!!!!
 public class Quiz implements ActionListener {
-    private ArrayList<String> questions = new ArrayList<>();
-    private ArrayList<String> options = new ArrayList<>();
-    private ArrayList<Character> answers = new ArrayList<>();
+    private static ArrayList<String> questions = new ArrayList<>();
+    private static ArrayList<String> options = new ArrayList<>();
+    private static ArrayList<Character> answers = new ArrayList<>();
     char answer;
     //Για να επιλέγονται randomly οι ερωτήσεις
-    private final Random random = new Random();
+    private final SecureRandom random = new SecureRandom();
     private int index;
 
     JFrame frame = new JFrame();
@@ -35,16 +36,15 @@ public class Quiz implements ActionListener {
 
     GamePanel gp;
 
-    public Quiz(GamePanel gp) throws FileNotFoundException {
+    public Quiz(GamePanel gp) {
         this.gp = gp;
         FrameSetter.setFrame(frame, "Question", 700, 550);
         //Για να μη γίνεται skip της ερώτησης
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 
-        textArea.setBounds(200, 0, 700, 100);
+        textArea.setBounds(100, 0, 600, 100);
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
-        //textArea.setBackground(new Color(25, 25, 25));
         textArea.setOpaque(false);
         textArea.setForeground(Color.black);
         textArea.setFont(new Font("Calibri", Font.BOLD, 20));
@@ -59,7 +59,6 @@ public class Quiz implements ActionListener {
             frame.add(button);
         frame.add(textArea);
         frame.setVisible(true);
-        readQuestions();
         // Τυχαία επιλογή μιας ερώτησης
         index = random.nextInt(questions.size());
         displayQuestion();
@@ -95,6 +94,7 @@ public class Quiz implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        ButtonSetter.playSE();
         for (int i = 0; i < buttons.length; i++) {
             if (e.getSource() == buttons[i]) {
                 answer = symbols[i];
@@ -124,7 +124,7 @@ public class Quiz implements ActionListener {
         }
         //Για να μην κολλήσει το progressBar
         gp.gameState = gp.playState;
-        LabyrinthFrame.updateBar(time);
+        gp.labyrinthFrame.updateBar(time);
         frame.dispose();
         KeyHandler.quizTrig = false;
 
@@ -135,18 +135,15 @@ public class Quiz implements ActionListener {
      *
      * @throws FileNotFoundException
      */
-    private void readQuestions() throws FileNotFoundException {
+    protected static void readQuestions() throws FileNotFoundException {
         Scanner q = new Scanner(new File(String.format("src/main/resources/quiz/%s Questions.txt", Levels.difficulty)));
-        while (q.hasNextLine()) {
+        while (q.hasNextLine())
             questions.add(q.nextLine());
-        }
         Scanner o = new Scanner(new File(String.format("src/main/resources/quiz/%s Options.txt", Levels.difficulty)));
-        while (o.hasNextLine()) {
+        while (o.hasNextLine())
             options.add(o.nextLine());
-        }
         Scanner a = new Scanner(new File(String.format("src/main/resources/quiz/%s Answers.txt", Levels.difficulty)));
-        while (a.hasNext()) {
+        while (a.hasNext())
             answers.add(a.next().charAt(0));
-        }
     }
 }

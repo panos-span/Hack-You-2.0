@@ -7,7 +7,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ * Λειτουργική κλάση για το configuration του χάρτη, των μπλοκ και των χαρακτηριστικών αυτών
+ */
 public class TileManager {
+
     GamePanel gp;
     public Tile[] tile;
     public int[][] mapTileNum;
@@ -16,14 +20,17 @@ public class TileManager {
 
         this.gp = gp;
 
-        tile = new Tile[3];
+        tile = new Tile[2];
         mapTileNum = new int[gp.maxWorldCol][gp.maxWorldRow];
 
         getTileImage();
-        loadMap("/maps/map2.txt");
-        /* or
-        loadMap("/maps/map2.txt");
-        */
+        //loadMap("/maps/Medium.txt");
+        if (!Levels.difficulty.equals("Hard")) {
+            loadMap(String.format("/maps/%s.txt", Levels.difficulty));
+        } else {
+            loadMap("/maps/Medium.txt");
+        }
+
 
     }
 
@@ -37,9 +44,6 @@ public class TileManager {
             tile[1].image = ImageIO.read(getClass().getResourceAsStream("/tiles/wall.PNG"));
             tile[1].collision = true;
 
-            tile[2] = new Tile();
-            tile[2].image = ImageIO.read(getClass().getResourceAsStream("/tiles/question_mark.png"));
-
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -47,9 +51,10 @@ public class TileManager {
 
     /**
      * Μέθοδος φόρτωσης λαβυρίνθου
+     *
      * @param FilePath
      */
-    public void loadMap(String FilePath) {
+    private void loadMap(String FilePath) {
 
         try {
             InputStream is = getClass().getResourceAsStream(FilePath);
@@ -96,24 +101,24 @@ public class TileManager {
             int screenX = worldX - gp.player.x + gp.player.screenX;
             int screenY = worldY - gp.player.y + gp.player.screenY;
 
-            // σταματημος καμερας στο edge
-            if (gp.player.screenX > gp.player.x) {
+            // παύση κίνησης της κάμερας στο edge του window
+            if (gp.player.screenX > gp.player.x)
                 screenX = worldX;
-            }
-            if (gp.player.screenY > gp.player.y) {
+
+            if (gp.player.screenY > gp.player.y)
                 screenY = worldY;
-            }
+
             int rightOffsetValue = gp.screenWidth - gp.player.screenX;
 
-            if (rightOffsetValue > gp.WorldWidth - gp.player.x) {
+            if (rightOffsetValue > gp.WorldWidth - gp.player.x)
                 screenX = gp.screenWidth - (gp.WorldWidth - worldX);
-            }
+
 
             int bottomOffsetValue = gp.screenHeight - gp.player.screenY;
 
-            if (bottomOffsetValue > gp.WorldHeight - gp.player.y) {
+            if (bottomOffsetValue > gp.WorldHeight - gp.player.y)
                 screenY = gp.screenHeight - (gp.WorldHeight - worldY);
-            }
+
 
             if (worldX + gp.tileSize > gp.player.x - gp.player.screenX &&
                     worldX - gp.tileSize > gp.player.x + gp.player.screenX &&
@@ -130,7 +135,6 @@ public class TileManager {
             if (worldCol == gp.maxWorldCol) {
                 worldCol = 0;
                 worldRow++;
-
             }
         }
 

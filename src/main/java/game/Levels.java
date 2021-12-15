@@ -3,6 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 
 /**
  * Παράθυρο επιλογής επίπεδου δυσκολίας
@@ -55,11 +56,9 @@ public class Levels implements ActionListener {
         frame.add(backgroundLabel);
     }
 
-    /**
-     * Ενέργεια όταν κάνουμε κλικ στα κουμπιά
-     */
     @Override
     public void actionPerformed(ActionEvent e) {
+        ButtonSetter.playSE();
         if (e.getSource() == easy) {
             //new EasyLabyrinths();
             difficulty = "Easy";
@@ -73,6 +72,11 @@ public class Levels implements ActionListener {
         frame.dispose();
         //Δημιουργία λαβύρινθου και καθορισμός δυσκολίας ερωτήσεων
         LabyrinthFrame.setLabyrinth();
+        try {
+            Quiz.readQuestions();
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+        }
         SwingUtilities.invokeLater(LabyrinthFrame::new);
         //TODO Κάθε κατηγορία λαβύρινθου να κάνει extend την κλάση Labyrinth!
 

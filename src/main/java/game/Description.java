@@ -4,12 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * Κλάση που περιγράφει το παιχνίδι και τη "πλοκή"
@@ -21,11 +16,11 @@ import java.util.Scanner;
 public class Description extends UtilityFrame {
 
     Menu menu;
-    //private ArrayList<String> description = new ArrayList<>();
     JTextArea textArea = new JTextArea();
+    JScrollPane scrollPane;
 
     public Description(Menu menu) {
-        super("Description",800,800);
+        super("Description", 800, 600);
         this.menu = menu;
         super.frame.addWindowListener(new WindowAdapter() {
             @Override
@@ -44,15 +39,16 @@ public class Description extends UtilityFrame {
         textArea.setEditable(false);
 
         try {
-            super.load("src/main/resources/Mythos.txt",textArea);
+            super.load("src/main/resources/Mythos.txt", textArea);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
-        frame.add(textArea);
+        scrollPane = super.createScrollPane(textArea, 600, 500);
+
+        frame.getContentPane().add(scrollPane);
         frame.add(backgroundLabel);
     }
-
 
 
 }
